@@ -1,19 +1,56 @@
-# Linux-File-System-Task
+┌──(kali㉿kali)-[/tmp/backup]
+└─$ ls -lR
 
-You were chosen to be employed at Tuwaiq academy. There are 3 departments (Engineering, Accounting, and HR) at Tuwaiq. From your first workday you were challenged to do the following tasks:<br/>
-<br/>
-1-Create one main folder called Tuwaiq <br/>
-2-Inside Tuwaiq folder create five empty (0 KB) files for each department. The file names should be _.txt, < department first characters >_num.txt, < department first characters >_num+1.txt and so on (you will have 15 files in total). Ex: eng_1.txt, eng_2.txt / acc_1.txt, acc_2.txt <br/>
-3-Create the following users with description and expiration date (3 years after creation date). No need to add Expiration date for managers and CEO. Users are listed below: <br/>
+drwxr-xr-x 5 kali kali 4096 Oct 16 08:54 Tuwaiq
 
-![image](https://user-images.githubusercontent.com/85888419/196029805-de31bcca-8c24-4089-93af-7f26e1467f9b.png)
- <br/>
-4-Ensure the addition of the users using some Linux utility.  <br/>
-5- Create 3 groups (Engineering, Accounting, HR) then add the users to their relevant group. <br/>
-6-Your manager asked you to organize the files into 3 separate sub folders (Engineering, Accounting and HR).<br/>
-7-Change user and group ownership for each subfolder to the relevant group (use any user from the department as an owner). Ex: Engineering folder should be owned by Engineering group and then ensure the new ownership.<br/>
-8-Grant the CEO permission to all folders.<br/>
-9-Create a Backup folder inside the /tmp folder and then backup the company’s data into the backups folder. Use a meaningful name for the backup folder.<br/>
-10-Preparer a file that contains all the names of the files and folders of the company <br/>
+./Tuwaiq:
+total 12
+drwxr-xr-x 2 kali kali 4096 Oct 16 08:54 Accounting
+drwxr-xr-x 2 kali kali 4096 Oct 16 08:54 Engineering
+drwxr-xr-x 2 kali kali 4096 Oct 16 08:54 HR
 
-After finishing the task take screen shots of the /tmp/backups. Then save the output of ``` ls -lR ```  on Tuwaiq directory to a file and then upload the picture and the text file to the forked repo and then create a pull request.
+./Tuwaiq/Accounting:
+total 0
+-rw-r--r-- 1 kali kali 0 Oct 16 08:54 acc_1.txt
+-rw-r--r-- 1 kali kali 0 Oct 16 08:54 acc_2.txt
+-rw-r--r-- 1 kali kali 0 Oct 16 08:54 acc_3.txt
+-rw-r--r-- 1 kali kali 0 Oct 16 08:54 acc_4.txt
+-rw-r--r-- 1 kali kali 0 Oct 16 08:54 acc_5.txt
+
+./Tuwaiq/Engineering:
+total 0
+-rw-r--r-- 1 kali kali 0 Oct 16 08:54 eng_1.txt
+-rw-r--r-- 1 kali kali 0 Oct 16 08:54 eng_2.txt
+-rw-r--r-- 1 kali kali 0 Oct 16 08:54 eng_3.txt
+-rw-r--r-- 1 kali kali 0 Oct 16 08:54 eng_4.txt
+-rw-r--r-- 1 kali kali 0 Oct 16 08:54 eng_5.txt
+
+./Tuwaiq/HR:
+total 0
+-rw-r--r-- 1 kali kali 0 Oct 16 08:54 hr_1.txt
+-rw-r--r-- 1 kali kali 0 Oct 16 08:54 hr_2.txt
+-rw-r--r-- 1 kali kali 0 Oct 16 08:54 hr_3.txt
+-rw-r--r-- 1 kali kali 0 Oct 16 08:54 hr_4.txt
+-rw-r--r-- 1 kali kali 0 Oct 16 08:54 hr_5.txt
+
+
+_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+
+./Tuwaiq:
+Accounting/  Engineering/  HR/
+
+./Tuwaiq/Accounting:
+acc_1.txt  acc_2.txt  acc_3.txt  acc_4.txt  acc_5.txt
+
+./Tuwaiq/Engineering:
+eng_1.txt  eng_2.txt  eng_3.txt  eng_4.txt  eng_5.txt
+
+./Tuwaiq/HR:
+hr_1.txt  hr_2.txt  hr_3.txt  hr_4.txt  hr_5.txt
+
+
+_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+
+<img width="225" alt="newtmp" src="https://user-images.githubusercontent.com/60838224/196037675-49075709-b2a4-4c50-bfd8-24bfe3bdbc52.png">
+<img width="215" alt="backup" src="https://user-images.githubusercontent.com/60838224/196037678-cc374746-a5f6-427e-a28d-77f44f0256e1.png">
+<img width="244" alt="HW#3" src="https://user-images.githubusercontent.com/60838224/196037679-cbfe4079-f902-454b-a695-a82917f1ead9.png">
