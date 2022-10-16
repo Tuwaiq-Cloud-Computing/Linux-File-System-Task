@@ -1,0 +1,39 @@
+.:
+total 24
+drwxr-xr-x 2 anas kali        4096 Oct 16 07:37 ,
+drwxr-xr-x 2 anas Accounting  4096 Oct 16 07:18 Accounting
+drwxr-xr-x 2 anas kali        4096 Oct 16 07:37 backup
+drwxr-xr-x 2 anas Engineering 4096 Oct 16 07:19 Engineering
+drwxrwx--- 2 anas HR          4096 Oct 16 07:19 HR
+drwxr-xr-x 3 anas kali        4096 Oct 16 07:38 tmp
+
+./,:
+total 0
+
+./Accounting:
+total 0
+-rwxrwx--- 1 anas kali 0 Oct 16 06:27 acc_1.txt
+-rwxrwx--- 1 anas kali 0 Oct 16 06:27 acc_2.txt
+-rwxrwx--- 1 anas kali 0 Oct 16 06:27 acc_3.txt
+-rwxrwx--- 1 anas kali 0 Oct 16 06:27 acc_4.txt
+-rwxrwx--- 1 anas kali 0 Oct 16 06:27 acc_5.txt
+
+./backup:
+total 0
+
+./Engineering:
+total 0
+-rwxrwx--- 1 anas kali 0 Oct 16 06:26 eng_1.txt
+-rwxrwx--- 1 anas kali 0 Oct 16 06:26 eng_2.txt
+-rwxrwx--- 1 anas kali 0 Oct 16 06:26 eng_3.txt
+-rwxrwx--- 1 anas kali 0 Oct 16 06:26 eng_4.txt
+-rwxrwx--- 1 anas kali 0 Oct 16 06:26 eng_5.txt
+
+./HR:
+total 0
+-rwxrwx--- 1 anas kali 0 Oct 16 06:29 hr_1.txt
+-rwxrwx--- 1 anas kali 0 Oct 16 06:29 hr_2.txt
+-rwxrwx--- 1 anas kali 0 Oct 16 06:29 hr_3.txt
+-rwxrwx--- 1 anas kali 0 Oct 16 06:29 hr_4.txt
+-rwxrwx--- 1 anas kali 0 Oct 16 06:29 hr_5.txt
+
