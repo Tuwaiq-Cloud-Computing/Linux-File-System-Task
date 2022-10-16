@@ -1,0 +1,37 @@
+Desktop/Tuwaiq:
+total 20
+drwxr-xr-x 5 kali kali        4096 Oct 16 07:50 .
+drwxr-xr-x 3 kali kali        4096 Oct 16 07:44 ..
+drwxr-xr-x 2 anas Accountant  4096 Oct 16 07:49 Accounting
+drwxr-xr-x 2 anas Engineering 4096 Oct 16 07:49 Engineering
+drwxr-xr-x 2 anas HR          4096 Oct 16 07:50 HR
+
+Desktop/Tuwaiq/Accounting:
+total 8
+drwxr-xr-x 2 anas Accountant 4096 Oct 16 07:49 .
+drwxr-xr-x 5 kali kali       4096 Oct 16 07:50 ..
+-rw-r--r-- 1 anas Accountant    0 Oct 16 06:37 acc1.txt
+-rw-r--r-- 1 anas Accountant    0 Oct 16 06:37 acc2.txt
+-rw-r--r-- 1 anas Accountant    0 Oct 16 06:37 acc3.txt
+-rw-r--r-- 1 anas Accountant    0 Oct 16 06:37 acc4.txt
+-rw-r--r-- 1 anas Accountant    0 Oct 16 06:37 acc5.txt
+
+Desktop/Tuwaiq/Engineering:
+total 8
+drwxr-xr-x 2 anas Engineering 4096 Oct 16 07:49 .
+drwxr-xr-x 5 kali kali        4096 Oct 16 07:50 ..
+-rw-r--r-- 1 anas Engineering    0 Oct 16 06:37 eng1.txt
+-rw-r--r-- 1 anas Engineering    0 Oct 16 06:37 eng2.txt
+-rw-r--r-- 1 anas Engineering    0 Oct 16 06:37 eng3.txt
+-rw-r--r-- 1 anas Engineering    0 Oct 16 06:37 eng4.txt
+-rw-r--r-- 1 anas Engineering    0 Oct 16 06:37 eng5.txt
+
+Desktop/Tuwaiq/HR:
+total 8
+drwxr-xr-x 2 anas HR   4096 Oct 16 07:50 .
+drwxr-xr-x 5 kali kali 4096 Oct 16 07:50 ..
+-rw-r--r-- 1 anas HR      0 Oct 16 06:36 hr1.txt
+-rw-r--r-- 1 anas HR      0 Oct 16 06:36 hr2.txt
+-rw-r--r-- 1 anas HR      0 Oct 16 06:36 hr3.txt
+-rw-r--r-- 1 anas HR      0 Oct 16 06:36 hr4.txt
+-rw-r--r-- 1 anas HR      0 Oct 16 06:36 hr5.txt
