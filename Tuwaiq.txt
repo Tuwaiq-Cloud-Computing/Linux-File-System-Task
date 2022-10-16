@@ -1,0 +1,702 @@
+.:
+total 40
+drwxr-xr-x  6 kali kali  4096 Oct 16 16:25 .
+drwxr-xr-x 22 kali kali  4096 Oct 16 16:13 ..
+-rw----r--  1 kali kali  1117 Oct 14 08:13 command.txt
+drwx------  7 kali kali  4096 Oct 12 00:03 holehe-master
+drwxr-xr-x  2 kali kali  4096 Oct 16 14:22 New Folder
+drwxr-xr-x  2 kali kali  4096 Oct 15 20:02 temp
+-rw-------  1 kali kali 12288 Oct 13 14:35 .text.txt.swp
+drw-r--r--  5 anas anas  4096 Oct 16 15:49 Tuwaiq
+-rw-r--r--  1 kali kali     0 Oct 16 16:26 Tuwaiq.txt
+
+./holehe-master:
+total 92
+drwx------ 7 kali kali  4096 Oct 12 00:03 .
+drwxr-xr-x 6 kali kali  4096 Oct 16 16:25 ..
+drwxr-xr-x 4 root root  4096 Oct 12 00:03 build
+drwxr-xr-x 2 root root  4096 Oct 12 00:03 dist
+-rw-r--r-- 1 kali kali   802 Oct  3 23:33 FUNDING.yml
+drwx------ 4 kali kali  4096 Oct  3 23:33 .github
+-rw-r--r-- 1 kali kali   106 Oct  3 23:33 .gitignore
+drwx------ 3 kali kali  4096 Oct  3 23:33 holehe
+drwxr-xr-x 2 root root  4096 Oct 12 00:03 holehe.egg-info
+-rw-r--r-- 1 kali kali 35149 Oct  3 23:33 LICENSE.md
+-rw-r--r-- 1 kali kali 15639 Oct  3 23:33 README.md
+-rw-r--r-- 1 kali kali   777 Oct  3 23:33 setup.py
+
+./holehe-master/build:
+total 16
+drwxr-xr-x 4 root root 4096 Oct 12 00:03 .
+drwx------ 7 kali kali 4096 Oct 12 00:03 ..
+drwxr-xr-x 2 root root 4096 Oct 12 00:03 bdist.linux-x86_64
+drwxr-xr-x 3 root root 4096 Oct 12 00:03 lib
+
+./holehe-master/build/bdist.linux-x86_64:
+total 8
+drwxr-xr-x 2 root root 4096 Oct 12 00:03 .
+drwxr-xr-x 4 root root 4096 Oct 12 00:03 ..
+
+./holehe-master/build/lib:
+total 12
+drwxr-xr-x 3 root root 4096 Oct 12 00:03 .
+drwxr-xr-x 4 root root 4096 Oct 12 00:03 ..
+drwxr-xr-x 3 root root 4096 Oct 12 00:03 holehe
+
+./holehe-master/build/lib/holehe:
+total 80
+drwxr-xr-x  3 root root  4096 Oct 12 00:03 .
+drwxr-xr-x  3 root root  4096 Oct 12 00:03 ..
+-rw-r--r--  1 root root 11762 Oct  3 23:33 core.py
+-rw-r--r--  1 root root     0 Oct  3 23:33 __init__.py
+-rw-r--r--  1 root root   266 Oct  3 23:33 instruments.py
+-rw-r--r--  1 root root 49208 Oct  3 23:33 localuseragent.py
+drwxr-xr-x 25 root root  4096 Oct 12 00:03 modules
+
+./holehe-master/build/lib/holehe/modules:
+total 100
+drwxr-xr-x 25 root root 4096 Oct 12 00:03 .
+drwxr-xr-x  3 root root 4096 Oct 12 00:03 ..
+drwxr-xr-x  2 root root 4096 Oct 12 00:03 cms
+drwxr-xr-x  2 root root 4096 Oct 12 00:03 company
+drwxr-xr-x  2 root root 4096 Oct 12 00:03 crm
+drwxr-xr-x  2 root root 4096 Oct 12 00:03 crowfunding
+drwxr-xr-x  2 root root 4096 Oct 12 00:03 forum
+-rw-r--r--  1 root root    0 Oct  3 23:33 __init__.py
+drwxr-xr-x  2 root root 4096 Oct 12 00:03 jobs
+drwxr-xr-x  2 root root 4096 Oct 12 00:03 learning
+drwxr-xr-x  2 root root 4096 Oct 12 00:03 mails
+drwxr-xr-x  2 root root 4096 Oct 12 00:03 medias
+drwxr-xr-x  2 root root 4096 Oct 12 00:03 medical
+drwxr-xr-x  2 root root 4096 Oct 12 00:03 music
+drwxr-xr-x  2 root root 4096 Oct 12 00:03 osint
+drwxr-xr-x  2 root root 4096 Oct 12 00:03 payment
+drwxr-xr-x  2 root root 4096 Oct 12 00:03 porn
+drwxr-xr-x  2 root root 4096 Oct 12 00:03 productivity
+drwxr-xr-x  2 root root 4096 Oct 12 00:03 products
+drwxr-xr-x  2 root root 4096 Oct 12 00:03 programing
+drwxr-xr-x  2 root root 4096 Oct 12 00:03 real_estate
+drwxr-xr-x  2 root root 4096 Oct 12 00:03 shopping
+drwxr-xr-x  2 root root 4096 Oct 12 00:03 social_media
+drwxr-xr-x  2 root root 4096 Oct 12 00:03 software
+drwxr-xr-x  2 root root 4096 Oct 12 00:03 sport
+drwxr-xr-x  2 root root 4096 Oct 12 00:03 transport
+
+./holehe-master/build/lib/holehe/modules/cms:
+total 24
+drwxr-xr-x  2 root root 4096 Oct 12 00:03 .
+drwxr-xr-x 25 root root 4096 Oct 12 00:03 ..
+-rw-r--r--  1 root root 1932 Oct  3 23:33 atlassian.py
+-rw-r--r--  1 root root 1656 Oct  3 23:33 gravatar.py
+-rw-r--r--  1 root root    0 Oct  3 23:33 __init__.py
+-rw-r--r--  1 root root 2338 Oct  3 23:33 voxmedia.py
+-rw-r--r--  1 root root 2766 Oct  3 23:33 wordpress.py
+
+./holehe-master/build/lib/holehe/modules/company:
+total 12
+drwxr-xr-x  2 root root 4096 Oct 12 00:03 .
+drwxr-xr-x 25 root root 4096 Oct 12 00:03 ..
+-rw-r--r--  1 root root 3355 Oct  3 23:33 aboutme.py
+-rw-r--r--  1 root root    0 Oct  3 23:33 __init__.py
+
+./holehe-master/build/lib/holehe/modules/crm:
+total 48
+drwxr-xr-x  2 root root 4096 Oct 12 00:03 .
+drwxr-xr-x 25 root root 4096 Oct 12 00:03 ..
+-rw-r--r--  1 root root 1975 Oct  3 23:33 amocrm.py
+-rw-r--r--  1 root root 1961 Oct  3 23:33 axonaut.py
+-rw-r--r--  1 root root 1923 Oct  3 23:33 hubspot.py
+-rw-r--r--  1 root root    0 Oct  3 23:33 __init__.py
+-rw-r--r--  1 root root 2036 Oct  3 23:33 insightly.py
+-rw-r--r--  1 root root 1814 Oct  3 23:33 nimble.py
+-rw-r--r--  1 root root 1952 Oct  3 23:33 nocrm.py
+-rw-r--r--  1 root root 2034 Oct  3 23:33 nutshell.py
+-rw-r--r--  1 root root 2284 Oct  3 23:33 pipedrive.py
+-rw-r--r--  1 root root 1869 Oct  3 23:33 teamleader.py
+-rw-r--r--  1 root root 2248 Oct  3 23:33 zoho.py
+
+./holehe-master/build/lib/holehe/modules/crowfunding:
+total 12
+drwxr-xr-x  2 root root 4096 Oct 12 00:03 .
+drwxr-xr-x 25 root root 4096 Oct 12 00:03 ..
+-rw-r--r--  1 root root 3176 Oct  3 23:33 buymeacoffee.py
+-rw-r--r--  1 root root    0 Oct  3 23:33 __init__.py
+
+./holehe-master/build/lib/holehe/modules/forum:
+total 108
+drwxr-xr-x  2 root root 4096 Oct 12 00:03 .
+drwxr-xr-x 25 root root 4096 Oct 12 00:03 ..
+-rw-r--r--  1 root root 3765 Oct  3 23:33 babeshows.py
+-rw-r--r--  1 root root 3827 Oct  3 23:33 badeggsonline.py
+-rw-r--r--  1 root root 3437 Oct  3 23:33 biosmods.py
+-rw-r--r--  1 root root 3452 Oct  3 23:33 biotechnologyforums.py
+-rw-r--r--  1 root root 3447 Oct  3 23:33 blackworldforum.py
+-rw-r--r--  1 root root 3454 Oct  3 23:33 blitzortung.py
+-rw-r--r--  1 root root 3471 Oct  3 23:33 bluegrassrivals.py
+-rw-r--r--  1 root root 3484 Oct  3 23:33 cambridgemt.py
+-rw-r--r--  1 root root 3492 Oct  3 23:33 chinaphonearena.py
+-rw-r--r--  1 root root 3463 Oct  3 23:33 clashfarmer.py
+-rw-r--r--  1 root root 3454 Oct  3 23:33 codeigniter.py
+-rw-r--r--  1 root root 3426 Oct  3 23:33 cpaelites.py
+-rw-r--r--  1 root root 3412 Oct  3 23:33 cpahero.py
+-rw-r--r--  1 root root 3161 Oct  3 23:33 cracked_to.py
+-rw-r--r--  1 root root 3427 Oct  3 23:33 demonforums.py
+-rw-r--r--  1 root root 3534 Oct  3 23:33 freiberg.py
+-rw-r--r--  1 root root    0 Oct  3 23:33 __init__.py
+-rw-r--r--  1 root root 3404 Oct  3 23:33 koditv.py
+-rw-r--r--  1 root root 3425 Oct  3 23:33 mybb.py
+-rw-r--r--  1 root root 3857 Oct  3 23:33 nattyornot.py
+-rw-r--r--  1 root root 3482 Oct  3 23:33 ndemiccreations.py
+-rw-r--r--  1 root root 3431 Oct  3 23:33 nextpvr.py
+-rw-r--r--  1 root root 3846 Oct  3 23:33 onlinesequencer.py
+-rw-r--r--  1 root root 3783 Oct  3 23:33 thecardboard.py
+-rw-r--r--  1 root root 3471 Oct  3 23:33 therianguide.py
+-rw-r--r--  1 root root 3457 Oct  3 23:33 thevapingforum.py
+
+./holehe-master/build/lib/holehe/modules/jobs:
+total 20
+drwxr-xr-x  2 root root 4096 Oct 12 00:03 .
+drwxr-xr-x 25 root root 4096 Oct 12 00:03 ..
+-rw-r--r--  1 root root 1862 Oct  3 23:33 coroflot.py
+-rw-r--r--  1 root root 2294 Oct  3 23:33 freelancer.py
+-rw-r--r--  1 root root    0 Oct  3 23:33 __init__.py
+-rw-r--r--  1 root root 2481 Oct  3 23:33 seoclerks.py
+
+./holehe-master/build/lib/holehe/modules/learning:
+total 16
+drwxr-xr-x  2 root root 4096 Oct 12 00:03 .
+drwxr-xr-x 25 root root 4096 Oct 12 00:03 ..
+-rw-r--r--  1 root root 2521 Oct  3 23:33 diigo.py
+-rw-r--r--  1 root root    0 Oct  3 23:33 __init__.py
+-rw-r--r--  1 root root 2550 Oct  3 23:33 quora.py
+
+./holehe-master/build/lib/holehe/modules/mails:
+total 28
+drwxr-xr-x  2 root root 4096 Oct 12 00:03 .
+drwxr-xr-x 25 root root 4096 Oct 12 00:03 ..
+-rw-r--r--  1 root root 3305 Oct  3 23:33 google.py
+-rw-r--r--  1 root root    0 Oct  3 23:33 __init__.py
+-rw-r--r--  1 root root 1589 Oct  3 23:33 laposte.py
+-rw-r--r--  1 root root 3082 Oct  3 23:33 mail_ru.py
+-rw-r--r--  1 root root 2459 Oct  3 23:33 protonmail.py
+-rw-r--r--  1 root root 4035 Oct  3 23:33 yahoo.py
+
+./holehe-master/build/lib/holehe/modules/medias:
+total 28
+drwxr-xr-x  2 root root 4096 Oct 12 00:03 .
+drwxr-xr-x 25 root root 4096 Oct 12 00:03 ..
+-rw-r--r--  1 root root 2608 Oct  3 23:33 ello.py
+-rw-r--r--  1 root root 1765 Oct  3 23:33 flickr.py
+-rw-r--r--  1 root root    0 Oct  3 23:33 __init__.py
+-rw-r--r--  1 root root 1738 Oct  3 23:33 komoot.py
+-rw-r--r--  1 root root 1860 Oct  3 23:33 rambler.py
+-rw-r--r--  1 root root 1619 Oct  3 23:33 sporcle.py
+
+./holehe-master/build/lib/holehe/modules/medical:
+total 16
+drwxr-xr-x  2 root root 4096 Oct 12 00:03 .
+drwxr-xr-x 25 root root 4096 Oct 12 00:03 ..
+-rw-r--r--  1 root root 2093 Oct  3 23:33 caringbridge.py
+-rw-r--r--  1 root root    0 Oct  3 23:33 __init__.py
+-rw-r--r--  1 root root 2796 Oct  3 23:33 sevencups.py
+
+./holehe-master/build/lib/holehe/modules/music:
+total 32
+drwxr-xr-x  2 root root 4096 Oct 12 00:03 .
+drwxr-xr-x 25 root root 4096 Oct 12 00:03 ..
+-rw-r--r--  1 root root 2251 Oct  3 23:33 blip.py
+-rw-r--r--  1 root root    0 Oct  3 23:33 __init__.py
+-rw-r--r--  1 root root 3369 Oct  3 23:33 lastfm.py
+-rw-r--r--  1 root root 2041 Oct  3 23:33 smule.py
+-rw-r--r--  1 root root 1586 Oct  3 23:33 soundcloud.py
+-rw-r--r--  1 root root 2091 Oct  3 23:33 spotify.py
+-rw-r--r--  1 root root 2669 Oct  3 23:33 tunefind.py
+
+./holehe-master/build/lib/holehe/modules/osint:
+total 12
+drwxr-xr-x  2 root root 4096 Oct 12 00:03 .
+drwxr-xr-x 25 root root 4096 Oct 12 00:03 ..
+-rw-r--r--  1 root root    0 Oct  3 23:33 __init__.py
+-rw-r--r--  1 root root 1992 Oct  3 23:33 rocketreach.py
+
+./holehe-master/build/lib/holehe/modules/payment:
+total 12
+drwxr-xr-x  2 root root 4096 Oct 12 00:03 .
+drwxr-xr-x 25 root root 4096 Oct 12 00:03 ..
+-rw-r--r--  1 root root    0 Oct  3 23:33 __init__.py
+-rw-r--r--  1 root root 2383 Oct  3 23:33 venmo.py
+
+./holehe-master/build/lib/holehe/modules/porn:
+total 24
+drwxr-xr-x  2 root root 4096 Oct 12 00:03 .
+drwxr-xr-x 25 root root 4096 Oct 12 00:03 ..
+-rw-r--r--  1 root root    0 Oct  3 23:33 __init__.py
+-rw-r--r--  1 root root 2809 Oct  3 23:33 pornhub.py
+-rw-r--r--  1 root root 2489 Oct  3 23:33 redtube.py
+-rw-r--r--  1 root root 2922 Oct  3 23:33 xnxx.py
+-rw-r--r--  1 root root 2155 Oct  3 23:33 xvideos.py
+
+./holehe-master/build/lib/holehe/modules/productivity:
+total 16
+drwxr-xr-x  2 root root 4096 Oct 12 00:03 .
+drwxr-xr-x 25 root root 4096 Oct 12 00:03 ..
+-rw-r--r--  1 root root 1813 Oct  3 23:33 anydo.py
+-rw-r--r--  1 root root 2564 Oct  3 23:33 evernote.py
+-rw-r--r--  1 root root    0 Oct  3 23:33 __init__.py
+
+./holehe-master/build/lib/holehe/modules/products:
+total 24
+drwxr-xr-x  2 root root 4096 Oct 12 00:03 .
+drwxr-xr-x 25 root root 4096 Oct 12 00:03 ..
+-rw-r--r--  1 root root 2924 Oct  3 23:33 eventbrite.py
+-rw-r--r--  1 root root    0 Oct  3 23:33 __init__.py
+-rw-r--r--  1 root root 2543 Oct  3 23:33 nike.py
+-rw-r--r--  1 root root 4151 Oct  3 23:33 samsung.py
+
+./holehe-master/build/lib/holehe/modules/programing:
+total 32
+drwxr-xr-x  2 root root 4096 Oct 12 00:03 .
+drwxr-xr-x 25 root root 4096 Oct 12 00:03 ..
+-rw-r--r--  1 root root 2108 Oct  3 23:33 codecademy.py
+-rw-r--r--  1 root root 2236 Oct  3 23:33 codepen.py
+-rw-r--r--  1 root root 2025 Oct  3 23:33 devrant.py
+-rw-r--r--  1 root root 1972 Oct  3 23:33 github.py
+-rw-r--r--  1 root root    0 Oct  3 23:33 __init__.py
+-rw-r--r--  1 root root 1751 Oct  3 23:33 replit.py
+-rw-r--r--  1 root root 2235 Oct  3 23:33 teamtreehouse.py
+
+./holehe-master/build/lib/holehe/modules/real_estate:
+total 12
+drwxr-xr-x  2 root root 4096 Oct 12 00:03 .
+drwxr-xr-x 25 root root 4096 Oct 12 00:03 ..
+-rw-r--r--  1 root root    0 Oct  3 23:33 __init__.py
+-rw-r--r--  1 root root 2592 Oct  3 23:33 vrbo.py
+
+./holehe-master/build/lib/holehe/modules/shopping:
+total 48
+drwxr-xr-x  2 root root 4096 Oct 12 00:03 .
+drwxr-xr-x 25 root root 4096 Oct 12 00:03 ..
+-rw-r--r--  1 root root 2194 Oct  3 23:33 amazon.py
+-rw-r--r--  1 root root 1476 Oct  3 23:33 armurerieauxerre.py
+-rw-r--r--  1 root root 1959 Oct  3 23:33 deliveroo.py
+-rw-r--r--  1 root root 1892 Oct  3 23:33 dominosfr.py
+-rw-r--r--  1 root root 1925 Oct  3 23:33 ebay.py
+-rw-r--r--  1 root root 1758 Oct  3 23:33 envato.py
+-rw-r--r--  1 root root 4565 Oct  3 23:33 garmin.py
+-rw-r--r--  1 root root    0 Oct  3 23:33 __init__.py
+-rw-r--r--  1 root root 2374 Oct  3 23:33 naturabuy.py
+-rw-r--r--  1 root root 2467 Oct  3 23:33 vivino.py
+
+./holehe-master/build/lib/holehe/modules/social_media:
+total 100
+drwxr-xr-x  2 root root 4096 Oct 12 00:03 .
+drwxr-xr-x 25 root root 4096 Oct 12 00:03 ..
+-rw-r--r--  1 root root 2102 Oct  3 23:33 bitmoji.py
+-rw-r--r--  1 root root 3255 Oct  3 23:33 crevado.py
+-rw-r--r--  1 root root 3513 Oct  3 23:33 discord.py
+-rw-r--r--  1 root root 1657 Oct  3 23:33 fanpop.py
+-rw-r--r--  1 root root 1964 Oct  3 23:33 imgur.py
+-rw-r--r--  1 root root    0 Oct  3 23:33 __init__.py
+-rw-r--r--  1 root root 2951 Oct  3 23:33 instagram.py
+-rw-r--r--  1 root root 2814 Oct  3 23:33 myspace.py
+-rw-r--r--  1 root root 4290 Oct  3 23:33 odnoklassniki.py
+-rw-r--r--  1 root root 2198 Oct  3 23:33 parler.py
+-rw-r--r--  1 root root 1977 Oct  3 23:33 patreon.py
+-rw-r--r--  1 root root 1493 Oct  3 23:33 pinterest.py
+-rw-r--r--  1 root root 1740 Oct  3 23:33 plurk.py
+-rw-r--r--  1 root root 2042 Oct  3 23:33 snapchat.py
+-rw-r--r--  1 root root 2304 Oct  3 23:33 strava.py
+-rw-r--r--  1 root root 3588 Oct  3 23:33 taringa.py
+-rw-r--r--  1 root root 1910 Oct  3 23:33 tellonym.py
+-rw-r--r--  1 root root 4502 Oct  3 23:33 tumblr.py
+-rw-r--r--  1 root root 1401 Oct  3 23:33 twitter.py
+-rw-r--r--  1 root root 2182 Oct  3 23:33 vsco.py
+-rw-r--r--  1 root root 2282 Oct  3 23:33 wattpad.py
+-rw-r--r--  1 root root 2615 Oct  3 23:33 xing.py
+
+./holehe-master/build/lib/holehe/modules/software:
+total 36
+drwxr-xr-x  2 root root 4096 Oct 12 00:03 .
+drwxr-xr-x 25 root root 4096 Oct 12 00:03 ..
+-rw-r--r--  1 root root 2261 Oct  3 23:33 adobe.py
+-rw-r--r--  1 root root 1869 Oct  3 23:33 archive.py
+-rw-r--r--  1 root root 1499 Oct  3 23:33 docker.py
+-rw-r--r--  1 root root 1324 Oct  3 23:33 firefox.py
+-rw-r--r--  1 root root    0 Oct  3 23:33 __init__.py
+-rw-r--r--  1 root root 1882 Oct  3 23:33 issuu.py
+-rw-r--r--  1 root root 1819 Oct  3 23:33 lastpass.py
+-rw-r--r--  1 root root 2082 Oct  3 23:33 office365.py
+
+./holehe-master/build/lib/holehe/modules/sport:
+total 12
+drwxr-xr-x  2 root root 4096 Oct 12 00:03 .
+drwxr-xr-x 25 root root 4096 Oct 12 00:03 ..
+-rw-r--r--  1 root root 1328 Oct  3 23:33 bodybuilding.py
+-rw-r--r--  1 root root    0 Oct  3 23:33 __init__.py
+
+./holehe-master/build/lib/holehe/modules/transport:
+total 12
+drwxr-xr-x  2 root root 4096 Oct 12 00:03 .
+drwxr-xr-x 25 root root 4096 Oct 12 00:03 ..
+-rw-r--r--  1 root root 2593 Oct  3 23:33 blablacar.py
+-rw-r--r--  1 root root    0 Oct  3 23:33 __init__.py
+
+./holehe-master/dist:
+total 284
+drwxr-xr-x 2 root root   4096 Oct 12 00:03 .
+drwx------ 7 kali kali   4096 Oct 12 00:03 ..
+-rw-r--r-- 1 root root 282205 Oct 12 00:03 holehe-1.61-py3.10.egg
+
+./holehe-master/.github:
+total 20
+drwx------ 4 kali kali 4096 Oct  3 23:33 .
+drwx------ 7 kali kali 4096 Oct 12 00:03 ..
+-rw-r--r-- 1 kali kali  802 Oct  3 23:33 FUNDING.yml
+drwx------ 2 kali kali 4096 Oct  3 23:33 ISSUE_TEMPLATE
+drwx------ 2 kali kali 4096 Oct  3 23:33 workflows
+
+./holehe-master/.github/ISSUE_TEMPLATE:
+total 20
+drwx------ 2 kali kali 4096 Oct  3 23:33 .
+drwx------ 4 kali kali 4096 Oct  3 23:33 ..
+-rw-r--r-- 1 kali kali  834 Oct  3 23:33 bug_report.md
+-rw-r--r-- 1 kali kali  126 Oct  3 23:33 custom.md
+-rw-r--r-- 1 kali kali  595 Oct  3 23:33 feature_request.md
+
+./holehe-master/.github/workflows:
+total 12
+drwx------ 2 kali kali 4096 Oct  3 23:33 .
+drwx------ 4 kali kali 4096 Oct  3 23:33 ..
+-rw-r--r-- 1 kali kali 2361 Oct  3 23:33 codeql-analysis.yml
+
+./holehe-master/holehe:
+total 80
+drwx------  3 kali kali  4096 Oct  3 23:33 .
+drwx------  7 kali kali  4096 Oct 12 00:03 ..
+-rw-r--r--  1 kali kali 11762 Oct  3 23:33 core.py
+-rw-r--r--  1 kali kali     0 Oct  3 23:33 __init__.py
+-rw-r--r--  1 kali kali   266 Oct  3 23:33 instruments.py
+-rw-r--r--  1 kali kali 49208 Oct  3 23:33 localuseragent.py
+drwx------ 25 kali kali  4096 Oct  3 23:33 modules
+
+./holehe-master/holehe/modules:
+total 100
+drwx------ 25 kali kali 4096 Oct  3 23:33 .
+drwx------  3 kali kali 4096 Oct  3 23:33 ..
+drwx------  2 kali kali 4096 Oct  3 23:33 cms
+drwx------  2 kali kali 4096 Oct  3 23:33 company
+drwx------  2 kali kali 4096 Oct  3 23:33 crm
+drwx------  2 kali kali 4096 Oct  3 23:33 crowfunding
+drwx------  2 kali kali 4096 Oct  3 23:33 forum
+-rw-r--r--  1 kali kali    0 Oct  3 23:33 __init__.py
+drwx------  2 kali kali 4096 Oct  3 23:33 jobs
+drwx------  2 kali kali 4096 Oct  3 23:33 learning
+drwx------  2 kali kali 4096 Oct  3 23:33 mails
+drwx------  2 kali kali 4096 Oct  3 23:33 medias
+drwx------  2 kali kali 4096 Oct  3 23:33 medical
+drwx------  2 kali kali 4096 Oct  3 23:33 music
+drwx------  2 kali kali 4096 Oct  3 23:33 osint
+drwx------  2 kali kali 4096 Oct  3 23:33 payment
+drwx------  2 kali kali 4096 Oct  3 23:33 porn
+drwx------  2 kali kali 4096 Oct  3 23:33 productivity
+drwx------  2 kali kali 4096 Oct  3 23:33 products
+drwx------  2 kali kali 4096 Oct  3 23:33 programing
+drwx------  2 kali kali 4096 Oct  3 23:33 real_estate
+drwx------  2 kali kali 4096 Oct  3 23:33 shopping
+drwx------  2 kali kali 4096 Oct  3 23:33 social_media
+drwx------  2 kali kali 4096 Oct  3 23:33 software
+drwx------  2 kali kali 4096 Oct  3 23:33 sport
+drwx------  2 kali kali 4096 Oct  3 23:33 transport
+
+./holehe-master/holehe/modules/cms:
+total 24
+drwx------  2 kali kali 4096 Oct  3 23:33 .
+drwx------ 25 kali kali 4096 Oct  3 23:33 ..
+-rw-r--r--  1 kali kali 1932 Oct  3 23:33 atlassian.py
+-rw-r--r--  1 kali kali 1656 Oct  3 23:33 gravatar.py
+-rw-r--r--  1 kali kali    0 Oct  3 23:33 __init__.py
+-rw-r--r--  1 kali kali 2338 Oct  3 23:33 voxmedia.py
+-rw-r--r--  1 kali kali 2766 Oct  3 23:33 wordpress.py
+
+./holehe-master/holehe/modules/company:
+total 12
+drwx------  2 kali kali 4096 Oct  3 23:33 .
+drwx------ 25 kali kali 4096 Oct  3 23:33 ..
+-rw-r--r--  1 kali kali 3355 Oct  3 23:33 aboutme.py
+-rw-r--r--  1 kali kali    0 Oct  3 23:33 __init__.py
+
+./holehe-master/holehe/modules/crm:
+total 48
+drwx------  2 kali kali 4096 Oct  3 23:33 .
+drwx------ 25 kali kali 4096 Oct  3 23:33 ..
+-rw-r--r--  1 kali kali 1975 Oct  3 23:33 amocrm.py
+-rw-r--r--  1 kali kali 1961 Oct  3 23:33 axonaut.py
+-rw-r--r--  1 kali kali 1923 Oct  3 23:33 hubspot.py
+-rw-r--r--  1 kali kali    0 Oct  3 23:33 __init__.py
+-rw-r--r--  1 kali kali 2036 Oct  3 23:33 insightly.py
+-rw-r--r--  1 kali kali 1814 Oct  3 23:33 nimble.py
+-rw-r--r--  1 kali kali 1952 Oct  3 23:33 nocrm.py
+-rw-r--r--  1 kali kali 2034 Oct  3 23:33 nutshell.py
+-rw-r--r--  1 kali kali 2284 Oct  3 23:33 pipedrive.py
+-rw-r--r--  1 kali kali 1869 Oct  3 23:33 teamleader.py
+-rw-r--r--  1 kali kali 2248 Oct  3 23:33 zoho.py
+
+./holehe-master/holehe/modules/crowfunding:
+total 12
+drwx------  2 kali kali 4096 Oct  3 23:33 .
+drwx------ 25 kali kali 4096 Oct  3 23:33 ..
+-rw-r--r--  1 kali kali 3176 Oct  3 23:33 buymeacoffee.py
+-rw-r--r--  1 kali kali    0 Oct  3 23:33 __init__.py
+
+./holehe-master/holehe/modules/forum:
+total 108
+drwx------  2 kali kali 4096 Oct  3 23:33 .
+drwx------ 25 kali kali 4096 Oct  3 23:33 ..
+-rw-r--r--  1 kali kali 3765 Oct  3 23:33 babeshows.py
+-rw-r--r--  1 kali kali 3827 Oct  3 23:33 badeggsonline.py
+-rw-r--r--  1 kali kali 3437 Oct  3 23:33 biosmods.py
+-rw-r--r--  1 kali kali 3452 Oct  3 23:33 biotechnologyforums.py
+-rw-r--r--  1 kali kali 3447 Oct  3 23:33 blackworldforum.py
+-rw-r--r--  1 kali kali 3454 Oct  3 23:33 blitzortung.py
+-rw-r--r--  1 kali kali 3471 Oct  3 23:33 bluegrassrivals.py
+-rw-r--r--  1 kali kali 3484 Oct  3 23:33 cambridgemt.py
+-rw-r--r--  1 kali kali 3492 Oct  3 23:33 chinaphonearena.py
+-rw-r--r--  1 kali kali 3463 Oct  3 23:33 clashfarmer.py
+-rw-r--r--  1 kali kali 3454 Oct  3 23:33 codeigniter.py
+-rw-r--r--  1 kali kali 3426 Oct  3 23:33 cpaelites.py
+-rw-r--r--  1 kali kali 3412 Oct  3 23:33 cpahero.py
+-rw-r--r--  1 kali kali 3161 Oct  3 23:33 cracked_to.py
+-rw-r--r--  1 kali kali 3427 Oct  3 23:33 demonforums.py
+-rw-r--r--  1 kali kali 3534 Oct  3 23:33 freiberg.py
+-rw-r--r--  1 kali kali    0 Oct  3 23:33 __init__.py
+-rw-r--r--  1 kali kali 3404 Oct  3 23:33 koditv.py
+-rw-r--r--  1 kali kali 3425 Oct  3 23:33 mybb.py
+-rw-r--r--  1 kali kali 3857 Oct  3 23:33 nattyornot.py
+-rw-r--r--  1 kali kali 3482 Oct  3 23:33 ndemiccreations.py
+-rw-r--r--  1 kali kali 3431 Oct  3 23:33 nextpvr.py
+-rw-r--r--  1 kali kali 3846 Oct  3 23:33 onlinesequencer.py
+-rw-r--r--  1 kali kali 3783 Oct  3 23:33 thecardboard.py
+-rw-r--r--  1 kali kali 3471 Oct  3 23:33 therianguide.py
+-rw-r--r--  1 kali kali 3457 Oct  3 23:33 thevapingforum.py
+
+./holehe-master/holehe/modules/jobs:
+total 20
+drwx------  2 kali kali 4096 Oct  3 23:33 .
+drwx------ 25 kali kali 4096 Oct  3 23:33 ..
+-rw-r--r--  1 kali kali 1862 Oct  3 23:33 coroflot.py
+-rw-r--r--  1 kali kali 2294 Oct  3 23:33 freelancer.py
+-rw-r--r--  1 kali kali    0 Oct  3 23:33 __init__.py
+-rw-r--r--  1 kali kali 2481 Oct  3 23:33 seoclerks.py
+
+./holehe-master/holehe/modules/learning:
+total 16
+drwx------  2 kali kali 4096 Oct  3 23:33 .
+drwx------ 25 kali kali 4096 Oct  3 23:33 ..
+-rw-r--r--  1 kali kali 2521 Oct  3 23:33 diigo.py
+-rw-r--r--  1 kali kali    0 Oct  3 23:33 __init__.py
+-rw-r--r--  1 kali kali 2550 Oct  3 23:33 quora.py
+
+./holehe-master/holehe/modules/mails:
+total 28
+drwx------  2 kali kali 4096 Oct  3 23:33 .
+drwx------ 25 kali kali 4096 Oct  3 23:33 ..
+-rw-r--r--  1 kali kali 3305 Oct  3 23:33 google.py
+-rw-r--r--  1 kali kali    0 Oct  3 23:33 __init__.py
+-rw-r--r--  1 kali kali 1589 Oct  3 23:33 laposte.py
+-rw-r--r--  1 kali kali 3082 Oct  3 23:33 mail_ru.py
+-rw-r--r--  1 kali kali 2459 Oct  3 23:33 protonmail.py
+-rw-r--r--  1 kali kali 4035 Oct  3 23:33 yahoo.py
+
+./holehe-master/holehe/modules/medias:
+total 28
+drwx------  2 kali kali 4096 Oct  3 23:33 .
+drwx------ 25 kali kali 4096 Oct  3 23:33 ..
+-rw-r--r--  1 kali kali 2608 Oct  3 23:33 ello.py
+-rw-r--r--  1 kali kali 1765 Oct  3 23:33 flickr.py
+-rw-r--r--  1 kali kali    0 Oct  3 23:33 __init__.py
+-rw-r--r--  1 kali kali 1738 Oct  3 23:33 komoot.py
+-rw-r--r--  1 kali kali 1860 Oct  3 23:33 rambler.py
+-rw-r--r--  1 kali kali 1619 Oct  3 23:33 sporcle.py
+
+./holehe-master/holehe/modules/medical:
+total 16
+drwx------  2 kali kali 4096 Oct  3 23:33 .
+drwx------ 25 kali kali 4096 Oct  3 23:33 ..
+-rw-r--r--  1 kali kali 2093 Oct  3 23:33 caringbridge.py
+-rw-r--r--  1 kali kali    0 Oct  3 23:33 __init__.py
+-rw-r--r--  1 kali kali 2796 Oct  3 23:33 sevencups.py
+
+./holehe-master/holehe/modules/music:
+total 32
+drwx------  2 kali kali 4096 Oct  3 23:33 .
+drwx------ 25 kali kali 4096 Oct  3 23:33 ..
+-rw-r--r--  1 kali kali 2251 Oct  3 23:33 blip.py
+-rw-r--r--  1 kali kali    0 Oct  3 23:33 __init__.py
+-rw-r--r--  1 kali kali 3369 Oct  3 23:33 lastfm.py
+-rw-r--r--  1 kali kali 2041 Oct  3 23:33 smule.py
+-rw-r--r--  1 kali kali 1586 Oct  3 23:33 soundcloud.py
+-rw-r--r--  1 kali kali 2091 Oct  3 23:33 spotify.py
+-rw-r--r--  1 kali kali 2669 Oct  3 23:33 tunefind.py
+
+./holehe-master/holehe/modules/osint:
+total 12
+drwx------  2 kali kali 4096 Oct  3 23:33 .
+drwx------ 25 kali kali 4096 Oct  3 23:33 ..
+-rw-r--r--  1 kali kali    0 Oct  3 23:33 __init__.py
+-rw-r--r--  1 kali kali 1992 Oct  3 23:33 rocketreach.py
+
+./holehe-master/holehe/modules/payment:
+total 12
+drwx------  2 kali kali 4096 Oct  3 23:33 .
+drwx------ 25 kali kali 4096 Oct  3 23:33 ..
+-rw-r--r--  1 kali kali    0 Oct  3 23:33 __init__.py
+-rw-r--r--  1 kali kali 2383 Oct  3 23:33 venmo.py
+
+./holehe-master/holehe/modules/porn:
+total 24
+drwx------  2 kali kali 4096 Oct  3 23:33 .
+drwx------ 25 kali kali 4096 Oct  3 23:33 ..
+-rw-r--r--  1 kali kali    0 Oct  3 23:33 __init__.py
+-rw-r--r--  1 kali kali 2809 Oct  3 23:33 pornhub.py
+-rw-r--r--  1 kali kali 2489 Oct  3 23:33 redtube.py
+-rw-r--r--  1 kali kali 2922 Oct  3 23:33 xnxx.py
+-rw-r--r--  1 kali kali 2155 Oct  3 23:33 xvideos.py
+
+./holehe-master/holehe/modules/productivity:
+total 16
+drwx------  2 kali kali 4096 Oct  3 23:33 .
+drwx------ 25 kali kali 4096 Oct  3 23:33 ..
+-rw-r--r--  1 kali kali 1813 Oct  3 23:33 anydo.py
+-rw-r--r--  1 kali kali 2564 Oct  3 23:33 evernote.py
+-rw-r--r--  1 kali kali    0 Oct  3 23:33 __init__.py
+
+./holehe-master/holehe/modules/products:
+total 24
+drwx------  2 kali kali 4096 Oct  3 23:33 .
+drwx------ 25 kali kali 4096 Oct  3 23:33 ..
+-rw-r--r--  1 kali kali 2924 Oct  3 23:33 eventbrite.py
+-rw-r--r--  1 kali kali    0 Oct  3 23:33 __init__.py
+-rw-r--r--  1 kali kali 2543 Oct  3 23:33 nike.py
+-rw-r--r--  1 kali kali 4151 Oct  3 23:33 samsung.py
+
+./holehe-master/holehe/modules/programing:
+total 32
+drwx------  2 kali kali 4096 Oct  3 23:33 .
+drwx------ 25 kali kali 4096 Oct  3 23:33 ..
+-rw-r--r--  1 kali kali 2108 Oct  3 23:33 codecademy.py
+-rw-r--r--  1 kali kali 2236 Oct  3 23:33 codepen.py
+-rw-r--r--  1 kali kali 2025 Oct  3 23:33 devrant.py
+-rw-r--r--  1 kali kali 1972 Oct  3 23:33 github.py
+-rw-r--r--  1 kali kali    0 Oct  3 23:33 __init__.py
+-rw-r--r--  1 kali kali 1751 Oct  3 23:33 replit.py
+-rw-r--r--  1 kali kali 2235 Oct  3 23:33 teamtreehouse.py
+
+./holehe-master/holehe/modules/real_estate:
+total 12
+drwx------  2 kali kali 4096 Oct  3 23:33 .
+drwx------ 25 kali kali 4096 Oct  3 23:33 ..
+-rw-r--r--  1 kali kali    0 Oct  3 23:33 __init__.py
+-rw-r--r--  1 kali kali 2592 Oct  3 23:33 vrbo.py
+
+./holehe-master/holehe/modules/shopping:
+total 48
+drwx------  2 kali kali 4096 Oct  3 23:33 .
+drwx------ 25 kali kali 4096 Oct  3 23:33 ..
+-rw-r--r--  1 kali kali 2194 Oct  3 23:33 amazon.py
+-rw-r--r--  1 kali kali 1476 Oct  3 23:33 armurerieauxerre.py
+-rw-r--r--  1 kali kali 1959 Oct  3 23:33 deliveroo.py
+-rw-r--r--  1 kali kali 1892 Oct  3 23:33 dominosfr.py
+-rw-r--r--  1 kali kali 1925 Oct  3 23:33 ebay.py
+-rw-r--r--  1 kali kali 1758 Oct  3 23:33 envato.py
+-rw-r--r--  1 kali kali 4565 Oct  3 23:33 garmin.py
+-rw-r--r--  1 kali kali    0 Oct  3 23:33 __init__.py
+-rw-r--r--  1 kali kali 2374 Oct  3 23:33 naturabuy.py
+-rw-r--r--  1 kali kali 2467 Oct  3 23:33 vivino.py
+
+./holehe-master/holehe/modules/social_media:
+total 100
+drwx------  2 kali kali 4096 Oct  3 23:33 .
+drwx------ 25 kali kali 4096 Oct  3 23:33 ..
+-rw-r--r--  1 kali kali 2102 Oct  3 23:33 bitmoji.py
+-rw-r--r--  1 kali kali 3255 Oct  3 23:33 crevado.py
+-rw-r--r--  1 kali kali 3513 Oct  3 23:33 discord.py
+-rw-r--r--  1 kali kali 1657 Oct  3 23:33 fanpop.py
+-rw-r--r--  1 kali kali 1964 Oct  3 23:33 imgur.py
+-rw-r--r--  1 kali kali    0 Oct  3 23:33 __init__.py
+-rw-r--r--  1 kali kali 2951 Oct  3 23:33 instagram.py
+-rw-r--r--  1 kali kali 2814 Oct  3 23:33 myspace.py
+-rw-r--r--  1 kali kali 4290 Oct  3 23:33 odnoklassniki.py
+-rw-r--r--  1 kali kali 2198 Oct  3 23:33 parler.py
+-rw-r--r--  1 kali kali 1977 Oct  3 23:33 patreon.py
+-rw-r--r--  1 kali kali 1493 Oct  3 23:33 pinterest.py
+-rw-r--r--  1 kali kali 1740 Oct  3 23:33 plurk.py
+-rw-r--r--  1 kali kali 2042 Oct  3 23:33 snapchat.py
+-rw-r--r--  1 kali kali 2304 Oct  3 23:33 strava.py
+-rw-r--r--  1 kali kali 3588 Oct  3 23:33 taringa.py
+-rw-r--r--  1 kali kali 1910 Oct  3 23:33 tellonym.py
+-rw-r--r--  1 kali kali 4502 Oct  3 23:33 tumblr.py
+-rw-r--r--  1 kali kali 1401 Oct  3 23:33 twitter.py
+-rw-r--r--  1 kali kali 2182 Oct  3 23:33 vsco.py
+-rw-r--r--  1 kali kali 2282 Oct  3 23:33 wattpad.py
+-rw-r--r--  1 kali kali 2615 Oct  3 23:33 xing.py
+
+./holehe-master/holehe/modules/software:
+total 36
+drwx------  2 kali kali 4096 Oct  3 23:33 .
+drwx------ 25 kali kali 4096 Oct  3 23:33 ..
+-rw-r--r--  1 kali kali 2261 Oct  3 23:33 adobe.py
+-rw-r--r--  1 kali kali 1869 Oct  3 23:33 archive.py
+-rw-r--r--  1 kali kali 1499 Oct  3 23:33 docker.py
+-rw-r--r--  1 kali kali 1324 Oct  3 23:33 firefox.py
+-rw-r--r--  1 kali kali    0 Oct  3 23:33 __init__.py
+-rw-r--r--  1 kali kali 1882 Oct  3 23:33 issuu.py
+-rw-r--r--  1 kali kali 1819 Oct  3 23:33 lastpass.py
+-rw-r--r--  1 kali kali 2082 Oct  3 23:33 office365.py
+
+./holehe-master/holehe/modules/sport:
+total 12
+drwx------  2 kali kali 4096 Oct  3 23:33 .
+drwx------ 25 kali kali 4096 Oct  3 23:33 ..
+-rw-r--r--  1 kali kali 1328 Oct  3 23:33 bodybuilding.py
+-rw-r--r--  1 kali kali    0 Oct  3 23:33 __init__.py
+
+./holehe-master/holehe/modules/transport:
+total 12
+drwx------  2 kali kali 4096 Oct  3 23:33 .
+drwx------ 25 kali kali 4096 Oct  3 23:33 ..
+-rw-r--r--  1 kali kali 2593 Oct  3 23:33 blablacar.py
+-rw-r--r--  1 kali kali    0 Oct  3 23:33 __init__.py
+
+./holehe-master/holehe.egg-info:
+total 36
+drwxr-xr-x 2 root root 4096 Oct 12 00:03 .
+drwx------ 7 kali kali 4096 Oct 12 00:03 ..
+-rw-r--r-- 1 root root    1 Oct 12 00:03 dependency_links.txt
+-rw-r--r-- 1 root root   45 Oct 12 00:03 entry_points.txt
+-rw-r--r-- 1 root root  526 Oct 12 00:03 PKG-INFO
+-rw-r--r-- 1 root root   39 Oct 12 00:03 requires.txt
+-rw-r--r-- 1 root root 5376 Oct 12 00:03 SOURCES.txt
+-rw-r--r-- 1 root root    7 Oct 12 00:03 top_level.txt
+
+./New Folder:
+total 8
+drwxr-xr-x 2 kali kali 4096 Oct 16 14:22 .
+drwxr-xr-x 6 kali kali 4096 Oct 16 16:25 ..
+
+./temp:
+total 24
+drwxr-xr-x 2 kali kali 4096 Oct 15 20:02 .
+drwxr-xr-x 6 kali kali 4096 Oct 16 16:25 ..
+-rwx-w---- 1 kali kali 1117 Oct 15 20:02 command.txt
+-rwxr-xr-x 1 kali kali  929 Oct 13 10:19 createuserexp.sh
+-rwxr-xr-x 1 root root  839 Oct 13 09:48 createuser.sh
+lrwxrwxrwx 1 kali kali   27 Oct 13 04:51 pass.txt -> /home/kali/Desktop/pass.txt
+-rw-r--r-- 1 kali kali  120 Oct 12 15:50 users.txt
+
+./Tuwaiq:
+total 0
+d????????? ? ? ? ?            ? .
+d????????? ? ? ? ?            ? ..
+d????????? ? ? ? ?            ? Accounting
+d????????? ? ? ? ?            ? Engineering
+d????????? ? ? ? ?            ? HR
