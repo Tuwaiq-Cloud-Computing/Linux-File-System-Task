@@ -1,0 +1,11 @@
+ls -lar Tuwaiq 
+      
+total 20
+-rw-r--r--   1 root  root           0 Oct 16 16:10 Tu_backup.txt
+drwxrwxr-x+  2 ali   HR.         4096 Oct 16 15:21 HR
+drwxrwxr-x+  2 ahmed Engineering 4096 Oct 16 15:19 Engineering
+-rw-r--r--   1 root  root           0 Oct 16 16:22 Alldata.txt
+drwxrwxr-x+  2 salwa Accounting  4096 Oct 16 15:20 Accounting
+drwxr-xr-x  17 kali  kali        4096 Oct 16 16:24 ..
+drwxrwxr-x+  5 anas  kali        4096 Oct 16 16:22 .
+                                                       
