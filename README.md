@@ -15,3 +15,7 @@ You were chosen to be employed at Tuwaiq academy. There are 3 departments (Engin
 8-Grant the CEO permission to all folders.<br/>
 9-Create a Backup folder inside the /tmp folder and then backup the company’s data into the backups folder. Use a meaningful name for the backup folder.<br/>
 10-Preparer a file that contains all the names of the files and folders of the company
+
+
+![image](https://user-images.githubusercontent.com/26005476/196036085-ed915e61-7593-4c1f-b56e-581779a72a20.png)
+![image](https://user-images.githubusercontent.com/26005476/196036094-4bc2c735-1c88-446e-9e09-2b6705183f5b.png)
