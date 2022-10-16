@@ -1,0 +1,9 @@
+┌──(kali㉿kali)-[~/Tuwaiq]
+└─$ ls -alr
+total 20
+drwxrwxr-x+  2 Ali   HR          4096 Oct 16 07:26 HR
+drwxrwxr-x+  2 Ahmad Engineering 4096 Oct 16 07:22 Engineering
+drwxrwxr-x+  2 Salwa Accounting  4096 Oct 16 07:23 Accounting
+drwxr-xr-x  18 kali  kali        4096 Oct 16 08:25 ..
+drwxrwxr-x+  5 Anas  kali        4096 Oct 16 07:26 .
+-rw-rwxr--+  1 kali  kali           0 Oct 16 06:26 ,
