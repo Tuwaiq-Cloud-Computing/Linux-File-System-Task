@@ -1,0 +1,8 @@
+ls -lar Tuwaiq          
+total 20
+drwxrwxr-x+  2 ali   HR          4096 Oct 16 07:21 HR
+drwxrwxr-x+  2 ahmed Engineering 4096 Oct 16 07:20 Engineering
+drwxrwxr-x+  2 salwa Accounting  4096 Oct 16 07:19 Accounting
+drwxr-xr-x  17 kali  kali        4096 Oct 16 07:32 ..
+drwxrwxr-x+  5 anas  anas        4096 Oct 16 07:21 .
+                 
