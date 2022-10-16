@@ -1,0 +1,8 @@
+command : ls -lar TUWaiq
+
+output : total 20
+drwxrwxr-x+  2 anas hr          4096 Oct 16 07:57 HR
+drwxrwxr-x+  2 anas Engineering 4096 Oct 16 07:54 Engineering
+drwxrwxr-x+  2 anas Accounting  4096 Oct 16 07:56 Accounting
+drwxr-xr-x  18 kali kali        4096 Oct 16 13:45 ..
+drwxrwxr-x+  5 anas anas        4096 Oct 16 08:01 .
