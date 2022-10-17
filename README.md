@@ -17,3 +17,5 @@ You were chosen to be employed at Tuwaiq academy. There are 3 departments (Engin
 10-Preparer a file that contains all the names of the files and folders of the company <br/>
 
 After finishing the task take screen shots of the /tmp/backups. Then save the output of ``` ls -lR ```  on Tuwaiq directory to a file and then upload the picture and the text file to the forked repo and then create a pull request.
+![new homework 123](https://user-images.githubusercontent.com/113862309/196159565-06711e05-4d79-4d04-8a0c-79a81ac0ac98.png)
+![new homework321](https://user-images.githubusercontent.com/113862309/196159585-127ccc8e-50ef-46b8-acc7-eabea06e9c77.png)
