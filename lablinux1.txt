@@ -1,0 +1,25 @@
+                                                                                                                                                                                                                     
+┌──(kali㉿kali)-[~]
+└─$ ls  -lar Tuwaiq      
+total 24
+-rw-r--r--  1 kali  kali           0 Oct 16 08:24 HRg5.txt
+-rw-r--r--  1 kali  kali           0 Oct 16 08:24 HRg4.txt
+-rw-r--r--  1 kali  kali           0 Oct 16 08:24 HRg3.txt
+-rw-r--r--  1 kali  kali           0 Oct 16 08:24 HRg2.txt
+-rw-r--r--  1 kali  kali           0 Oct 16 08:24 HRg1.txt
+drwxr-xr-x  2 ali   HR          4096 Oct 17 00:47 HR
+-rw-r--r--  1 kali  kali         221 Oct 17 04:00 FileNames.txt
+drwxr-xr-x  2 ahmad Engineering 4096 Oct 17 00:48 Engineering
+-rw-r--r--  1 kali  kali           0 Oct 16 08:23 Eng5.txt
+-rw-r--r--  1 kali  kali           0 Oct 16 08:23 Eng4.txt
+-rw-r--r--  1 kali  kali           0 Oct 16 08:23 Eng3.txt
+-rw-r--r--  1 kali  kali           0 Oct 16 08:23 Eng2.txt
+-rw-r--r--  1 kali  kali           0 Oct 16 08:23 Eng1.txt
+drwxr-xr-x  2 Salwa Accountaing 4096 Oct 17 00:47 Accounting
+-rw-r--r--  1 kali  kali           0 Oct 16 08:24 Accg5.txt
+-rw-r--r--  1 kali  kali           0 Oct 16 08:24 Accg4.txt
+-rw-r--r--  1 kali  kali           0 Oct 16 08:24 Accg3.txt
+-rw-r--r--  1 kali  kali           0 Oct 16 08:24 Accg2.txt
+-rw-r--r--  1 kali  kali           0 Oct 16 08:24 Accg1.txt
+drwxr-xr-x 19 kali  kali        4096 Oct 16 06:28 ..
+drwxr-xr-x  5 kali  kali        4096 Oct 17 04:00 .
