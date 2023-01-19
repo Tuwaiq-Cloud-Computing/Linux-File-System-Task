@@ -1,5 +1,8 @@
 # Linux-File-System-Task
 
+
+## Tasks:
+
 You were chosen to be employed at Tuwaiq academy. There are 3 departments (Engineering, Accounting, and HR) at Tuwaiq. From your first workday you were challenged to do the following tasks:<br/>
 <br/>
 1-Create one main folder called Tuwaiq <br/>
@@ -16,4 +19,8 @@ You were chosen to be employed at Tuwaiq academy. There are 3 departments (Engin
 9-Create a Backup folder inside the /tmp folder and then backup the company’s data into the backups folder. Use a meaningful name for the backup folder.<br/>
 10-Preparer a file that contains all the names of the files and folders of the company <br/>
 
-After finishing the task take screen shots of the /tmp/backups. Then save the output of ``` ls -lR ```  on Tuwaiq directory to a file and then upload the picture and the text file to the forked repo and then create a pull request.
+## Submission:
+
+- After finishing the task take screen shots of the /tmp/backups. Then save the output of ``` ls -lR ```  on Tuwaiq directory to a file and then upload the picture and the text file to the forked repo and then create a pull request.
+
+----------------------------------------------------------------
