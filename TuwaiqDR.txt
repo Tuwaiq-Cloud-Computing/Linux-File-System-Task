@@ -1,0 +1,61 @@
+.:
+total 16
+drwxr-xr-x 2 anas Accounting  4096 Jan 20 20:29 Accounting
+drwxr-xr-x 5 root root        4096 Jan 20 20:49 AdminBackup
+drwxr-xr-x 2 anas Engineering 4096 Jan 20 20:29 Engineering
+drwxr-xr-x 2 anas HR          4096 Jan 20 20:30 HR
+-rw-r--r-- 1 kali kali           0 Jan 20 20:52 TuwaiqDR.txt
+
+./Accounting:
+total 0
+-rw-r--r-- 1 anas Accounting 0 Jan 20 20:15 acc1.txt
+-rw-r--r-- 1 anas Accounting 0 Jan 20 20:15 acc2.txt
+-rw-r--r-- 1 anas Accounting 0 Jan 20 20:15 acc3.txt
+-rw-r--r-- 1 anas Accounting 0 Jan 20 20:15 acc4.txt
+-rw-r--r-- 1 anas Accounting 0 Jan 20 20:15 acc5.txt
+
+./AdminBackup:
+total 12
+drwxr-xr-x 2 root root 4096 Jan 20 20:49 Accounting
+drwxr-xr-x 2 root root 4096 Jan 20 20:48 Engineering
+drwxr-xr-x 2 root root 4096 Jan 20 20:49 HR
+
+./AdminBackup/Accounting:
+total 0
+-rw-r--r-- 1 root root 0 Jan 20 20:49 acc1.txt
+-rw-r--r-- 1 root root 0 Jan 20 20:49 acc2.txt
+-rw-r--r-- 1 root root 0 Jan 20 20:49 acc3.txt
+-rw-r--r-- 1 root root 0 Jan 20 20:49 acc4.txt
+-rw-r--r-- 1 root root 0 Jan 20 20:49 acc5.txt
+
+./AdminBackup/Engineering:
+total 0
+-rw-r--r-- 1 root root 0 Jan 20 20:48 eng_1.txt
+-rw-r--r-- 1 root root 0 Jan 20 20:48 eng_2.txt
+-rw-r--r-- 1 root root 0 Jan 20 20:48 eng_3.txt
+-rw-r--r-- 1 root root 0 Jan 20 20:48 eng_4.txt
+-rw-r--r-- 1 root root 0 Jan 20 20:48 eng_5.txt
+
+./AdminBackup/HR:
+total 0
+-rw-r--r-- 1 root root 0 Jan 20 20:49 hr1.txt
+-rw-r--r-- 1 root root 0 Jan 20 20:49 hr2.txt
+-rw-r--r-- 1 root root 0 Jan 20 20:49 hr3.txt
+-rw-r--r-- 1 root root 0 Jan 20 20:49 hr4.txt
+-rw-r--r-- 1 root root 0 Jan 20 20:49 hr5.txt
+
+./Engineering:
+total 0
+-rw-r--r-- 1 anas Engineering 0 Jan 20 20:15 eng_1.txt
+-rw-r--r-- 1 anas Engineering 0 Jan 20 20:15 eng_2.txt
+-rw-r--r-- 1 anas Engineering 0 Jan 20 20:15 eng_3.txt
+-rw-r--r-- 1 anas Engineering 0 Jan 20 20:15 eng_4.txt
+-rw-r--r-- 1 anas Engineering 0 Jan 20 20:15 eng_5.txt
+
+./HR:
+total 0
+-rw-r--r-- 1 anas HR 0 Jan 20 20:15 hr1.txt
+-rw-r--r-- 1 anas HR 0 Jan 20 20:15 hr2.txt
+-rw-r--r-- 1 anas HR 0 Jan 20 20:15 hr3.txt
+-rw-r--r-- 1 anas HR 0 Jan 20 20:15 hr4.txt
+-rw-r--r-- 1 anas HR 0 Jan 20 20:15 hr5.txt
