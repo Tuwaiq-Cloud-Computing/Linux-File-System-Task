@@ -1,0 +1,30 @@
+/tmp/backup/mydir/Tuwaiq:
+total 16
+drwxr-xr-x 2 anas Accountant  4096 Jan 21 10:41 Accounting
+drwxr-xr-x 2 anas Engineering 4096 Jan 21 10:43 Engineering
+drwxr-xr-x 2 anas HR          4096 Jan 21 10:42 HR
+-rw-r--r-- 1 ali  HR            41 Jan 21 10:48 usernames.txt
+
+/tmp/backup/mydir/Tuwaiq/Accounting:
+total 0
+-rw-r--r-- 1 anas Accountant 0 Jan 21 10:38 acc1.txt
+-rw-r--r-- 1 anas Accountant 0 Jan 21 10:38 acc2.txt
+-rw-r--r-- 1 anas Accountant 0 Jan 21 10:38 acc3.txt
+-rw-r--r-- 1 anas Accountant 0 Jan 21 10:38 acc4.txt
+-rw-r--r-- 1 anas Accountant 0 Jan 21 10:38 acc5.txt
+
+/tmp/backup/mydir/Tuwaiq/Engineering:
+total 0
+-rw-r--r-- 1 anas Engineering 0 Jan 21 10:36 eng1.txt
+-rw-r--r-- 1 anas Engineering 0 Jan 21 10:36 eng2.txt
+-rw-r--r-- 1 anas Engineering 0 Jan 21 10:36 eng3.txt
+-rw-r--r-- 1 anas Engineering 0 Jan 21 10:36 eng4.txt
+-rw-r--r-- 1 anas Engineering 0 Jan 21 10:36 eng5.txt
+
+/tmp/backup/mydir/Tuwaiq/HR:
+total 0
+-rw-r--r-- 1 anas HR 0 Jan 21 10:36 hr1.txt
+-rw-r--r-- 1 anas HR 0 Jan 21 10:36 hr2.txt
+-rw-r--r-- 1 anas HR 0 Jan 21 10:37 hr3.txt
+-rw-r--r-- 1 anas HR 0 Jan 21 10:37 hr4.txt
+-rw-r--r-- 1 anas HR 0 Jan 21 10:37 hr5.txt
