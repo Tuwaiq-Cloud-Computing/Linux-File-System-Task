@@ -1,0 +1,67 @@
+dontopenhaifa/tuwaiq:
+total 16
+drwxr-xr-x 2 anas accounting  4096 Jan 22 00:24 accounting
+drwxr-xr-x 2 anas engineering 4096 Jan 22 00:28 engineering
+drwxr-xr-x 2 anas hr          4096 Jan 22 00:27 hr
+drwxr-xr-x 2 root root        4096 Jan 21 20:35 tuwaiq
+
+dontopenhaifa/tuwaiq/accounting:
+total 0
+-rw-r--r-- 1 anas accounting 0 Jan 21 23:09 acc1.txt
+-rw-r--r-- 1 anas accounting 0 Jan 21 23:09 acc2.txt
+-rw-r--r-- 1 anas accounting 0 Jan 21 23:09 acc3.txt
+-rw-r--r-- 1 anas accounting 0 Jan 21 23:09 acc4.txt
+-rw-r--r-- 1 anas accounting 0 Jan 21 23:09 acc5.txt
+
+dontopenhaifa/tuwaiq/engineering:
+total 0
+-rw-r--r-- 1 anas engineering 0 Jan 21 23:08 eng1.txt
+-rw-r--r-- 1 anas engineering 0 Jan 21 23:09 eng2.txt
+-rw-r--r-- 1 anas engineering 0 Jan 21 23:09 eng3.txt
+-rw-r--r-- 1 anas engineering 0 Jan 21 23:09 eng4.txt
+-rw-r--r-- 1 anas engineering 0 Jan 21 23:09 eng5.txt
+
+dontopenhaifa/tuwaiq/hr:
+total 0
+-rw-r--r-- 1 anas hr 0 Jan 21 23:07 hr1.txt
+-rw-r--r-- 1 anas hr 0 Jan 21 23:07 hr2.txt
+-rw-r--r-- 1 anas hr 0 Jan 21 23:07 hr3.txt
+-rw-r--r-- 1 anas hr 0 Jan 21 23:07 hr4.txt
+-rw-r--r-- 1 anas hr 0 Jan 21 23:07 hr5.txt
+
+dontopenhaifa/tuwaiq/tuwaiq:
+total 0
+
+/tmp/dontopenhaifa/tuwaiq:
+total 16
+drwxr-xr-x 2 anas accounting  4096 Jan 22 00:24 accounting
+drwxr-xr-x 2 anas engineering 4096 Jan 22 00:28 engineering
+drwxr-xr-x 2 anas hr          4096 Jan 22 00:27 hr
+drwxr-xr-x 2 root root        4096 Jan 21 20:35 tuwaiq
+
+/tmp/dontopenhaifa/tuwaiq/accounting:
+total 0
+-rw-r--r-- 1 anas accounting 0 Jan 21 23:09 acc1.txt
+-rw-r--r-- 1 anas accounting 0 Jan 21 23:09 acc2.txt
+-rw-r--r-- 1 anas accounting 0 Jan 21 23:09 acc3.txt
+-rw-r--r-- 1 anas accounting 0 Jan 21 23:09 acc4.txt
+-rw-r--r-- 1 anas accounting 0 Jan 21 23:09 acc5.txt
+
+/tmp/dontopenhaifa/tuwaiq/engineering:
+total 0
+-rw-r--r-- 1 anas engineering 0 Jan 21 23:08 eng1.txt
+-rw-r--r-- 1 anas engineering 0 Jan 21 23:09 eng2.txt
+-rw-r--r-- 1 anas engineering 0 Jan 21 23:09 eng3.txt
+-rw-r--r-- 1 anas engineering 0 Jan 21 23:09 eng4.txt
+-rw-r--r-- 1 anas engineering 0 Jan 21 23:09 eng5.txt
+
+/tmp/dontopenhaifa/tuwaiq/hr:
+total 0
+-rw-r--r-- 1 anas hr 0 Jan 21 23:07 hr1.txt
+-rw-r--r-- 1 anas hr 0 Jan 21 23:07 hr2.txt
+-rw-r--r-- 1 anas hr 0 Jan 21 23:07 hr3.txt
+-rw-r--r-- 1 anas hr 0 Jan 21 23:07 hr4.txt
+-rw-r--r-- 1 anas hr 0 Jan 21 23:07 hr5.txt
+
+/tmp/dontopenhaifa/tuwaiq/tuwaiq:
+total 0
