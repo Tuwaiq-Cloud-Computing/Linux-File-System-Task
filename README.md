@@ -17,7 +17,6 @@ You were chosen to be employed at Tuwaiq academy. There are 3 departments (Engin
 7-Change user and group ownership for each subfolder to the relevant group (use any user from the department as an owner). Ex: Engineering folder should be owned by Engineering group and then ensure the new ownership.<br/>
 8-Grant the CEO permission to all folders.<br/>
 9-Create a Backup folder inside the /tmp folder and then backup the company’s data into the backups folder. Use a meaningful name for the backup folder.<br/>
-10-Preparer a file that contains all the names of the files and folders of the company <br/>
 
 ## Submission:
 
