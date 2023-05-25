@@ -1,0 +1,38 @@
+.:
+total 16
+drwxr-xr-x 2 salwa Accounting  4096 May 25 17:30 Accounting
+drwxrwxr-x 2 ahmad Engineering 4096 May 25 17:26 Engineering
+drwxr-xr-x 2 Ali   HR          4096 May 25 17:30 HR
+-rw-r--r-- 1 root  root           0 May 25 18:31 everything.txt
+drwxr-xr-x 3 root  root        4096 May 25 18:17 tmp
+
+./Accounting:
+total 0
+-rw-r--r-- 1 root root 0 May 25 16:27 acc_1.txt
+-rw-r--r-- 1 root root 0 May 25 16:27 acc_2.txt
+-rw-r--r-- 1 root root 0 May 25 16:27 acc_3.txt
+-rw-r--r-- 1 root root 0 May 25 16:27 acc_4.txt
+-rw-r--r-- 1 root root 0 May 25 16:27 acc_5.txt
+
+./Engineering:
+total 0
+-rw-r--r-- 1 root root 0 May 25 16:26 eng_1.txt
+-rw-r--r-- 1 root root 0 May 25 16:26 eng_2.txt
+-rw-r--r-- 1 root root 0 May 25 16:26 eng_3.txt
+-rw-r--r-- 1 root root 0 May 25 16:26 eng_4.txt
+-rw-r--r-- 1 root root 0 May 25 16:26 eng_5.txt
+
+./HR:
+total 0
+-rw-r--r-- 1 root root 0 May 25 16:28 HR_1.txt
+-rw-r--r-- 1 root root 0 May 25 16:28 HR_2.txt
+-rw-r--r-- 1 root root 0 May 25 16:28 HR_3.txt
+-rw-r--r-- 1 root root 0 May 25 16:28 HR_4.txt
+-rw-r--r-- 1 root root 0 May 25 16:28 HR_5.txt
+
+./tmp:
+total 4
+drwxr-xr-x 2 root root 4096 May 25 18:17 backups
+
+./tmp/backups:
+total 0
