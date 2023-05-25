@@ -1,0 +1,36 @@
+.:
+total 12
+-rw-r--r--  1 root root    3 May 24 14:06 CKAct.txt
+-rw-r--r--  1 root root 1028 May 23 16:55 logs.text
+drwx---rwx+ 5 anas root 4096 May 25 16:44 Tuwaiq
+-rw-r--r--  1 root root    0 May 25 23:48 Tuwaiq.txt
+
+./Tuwaiq:
+total 12
+drwx---rwx+ 2 salwa Accounting  4096 May 25 16:42 Accounting
+drwx---rwx+ 2 ahmad Engineering 4096 May 25 16:43 Engineering
+drwx---rwx+ 2 ali   HR          4096 May 25 16:44 HR
+
+./Tuwaiq/Accounting:
+total 0
+-rwx------+ 1 root root 0 May 25 16:20 acc_1.txt
+-rwx------+ 1 root root 0 May 25 16:20 acc_2.txt
+-rwx------+ 1 root root 0 May 25 16:20 acc_3.txt
+-rwx------+ 1 root root 0 May 25 16:20 acc_4.txt
+-rwx------+ 1 root root 0 May 25 16:20 acc_5.txt
+
+./Tuwaiq/Engineering:
+total 0
+-rwx------+ 1 root root 0 May 25 16:20 eng_1.txt
+-rwx------+ 1 root root 0 May 25 16:20 eng_2.txt
+-rwx------+ 1 root root 0 May 25 16:20 eng_3.txt
+-rwx------+ 1 root root 0 May 25 16:20 eng_4.txt
+-rwx------+ 1 root root 0 May 25 16:20 eng_5.txt
+
+./Tuwaiq/HR:
+total 0
+-rwx------+ 1 root root 0 May 25 16:20 hr_1.txt
+-rwx------+ 1 root root 0 May 25 16:20 hr_2.txt
+-rwx------+ 1 root root 0 May 25 16:20 hr_3.txt
+-rwx------+ 1 root root 0 May 25 16:20 hr_4.txt
+-rwx------+ 1 root root 0 May 25 16:20 hr_5.txt
