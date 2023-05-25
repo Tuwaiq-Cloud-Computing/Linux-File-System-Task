@@ -1,0 +1,30 @@
+.:
+total 12
+drwxrwx--- 2 salwa Accounting  4096 May 25 16:31 Accounting
+drwxrwx--- 2 ahmed Engineering 4096 May 25 16:30 Engineering
+drwxrwx--- 2 ali   HR          4096 May 25 16:31 HR
+-rw-r--r-- 1 root  root           0 May 25 17:14 owners_Tuwaiq.txt
+
+./Accounting:
+total 0
+-rw-r--r-- 1 root root 0 May 25 16:31 acc_1.txt
+-rw-r--r-- 1 root root 0 May 25 16:31 acc_2.txt
+-rw-r--r-- 1 root root 0 May 25 16:31 acc_3.txt
+-rw-r--r-- 1 root root 0 May 25 16:31 acc_4.txt
+-rw-r--r-- 1 root root 0 May 25 16:31 acc_5.txt
+
+./Engineering:
+total 0
+-rw-r--r-- 1 root root 0 May 25 16:30 eng_1.txt
+-rw-r--r-- 1 root root 0 May 25 16:30 eng_2.txt
+-rw-r--r-- 1 root root 0 May 25 16:30 eng_3.txt
+-rw-r--r-- 1 root root 0 May 25 16:30 eng_4.txt
+-rw-r--r-- 1 root root 0 May 25 16:30 eng_5.txt
+
+./HR:
+total 0
+-rw-r--r-- 1 root root 0 May 25 16:31 hr_1.txt
+-rw-r--r-- 1 root root 0 May 25 16:31 hr_2.txt
+-rw-r--r-- 1 root root 0 May 25 16:31 hr_3.txt
+-rw-r--r-- 1 root root 0 May 25 16:31 hr_4.txt
+-rw-r--r-- 1 root root 0 May 25 16:31 hr_5.txt
