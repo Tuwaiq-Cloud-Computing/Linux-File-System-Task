@@ -1,0 +1,177 @@
+    1  ls -a
+    2  mkdir folder1
+    3  mkdir folder2
+    4  mkdir folder3
+    5  touch folder1 sourcefile.txt
+    6  touch folder2 sourcefile.txt
+    7  touch folder2 sourcefile.txt
+    8  touch folder3 desfile.txt
+    9  cp floder/sourcefile.txt folder2/folder3/desfile.txt
+   10  cp folder/sourcefile.txt folder2/folder3/desfile.txt
+   11  cp folder1/sourcefile.txt folder2/folder3/desfile.txt
+   12  cp folder1/sourcefile.txt folder2/ folder3/desfile.txt
+   13  touch folder2 sourcefile.txt
+   14  cp folder1/sourcefile.txt folder2/ folder3/desfile.txt
+   15  cd home
+   16  mkdir folder1
+   17  mkdir folder2
+   18  mkdir folder3
+   19  touch folder1 sourcefile.txt
+   20  touch folder2 sourcefile.txt
+   21  touch folder3 desfile.txt
+   22  cp folder1/sourcefile.txt folder2/ folder3/desfile.txt
+   23  cp -r folder1/sourcefile.txt folder2/ folder3/desfile.txt
+   24  cp folder1/sourcefile.txt && mv folder2/ folder3/desfile.txt
+   25  cp folder1/sourcefile.txt folder2/sourcefile.txt && mv folder2/sourcefile.txt folder3/desfile
+   26  cp folder1/sourcefile.txt folder2/ folder3/desfile.txt
+   27  rmidr folder1 
+   28  rm folder1 
+   29  pwd
+   30  clear
+   31  mkdir Tuwaiq
+   32  cd .. Tuwaiq
+   33  ls
+   34  cd Tuwaiq
+   35  touch eng_1.txt
+   36  touch eng_2.txt
+   37  touch acc1.txt
+   38  touch acc2.txt
+   39  touch HR1.txt
+   40  touch HR2.txt
+   41  rm acc1.txt
+   42  rm acc2.txt
+   43  rm HR1.txt
+   44  rm HR2.txt
+   45  touch HR_1.txt
+   46  touch HR_2.txt
+   47  touch CEO_1.txt
+   48  useradd ahmad
+   49  useradd yaman
+   50  useradd ali
+   51  useradd Ali
+   52  useradd hazem
+   53  useradd salwa
+   54  useradd rasha
+   55  useradd anas
+   56  useradd -c 'Engineer' ahmad
+   57  usermod -c 'Engineer' ahmad
+   58  usermod -c 'Engineer' yaman
+   59  usermod -c 'HR Manager' Ali
+   60  usermod -c 'HR employee' hazem
+   61  usermod -c 'Accountant' salwa
+   62  usermod -c 'Accountant' rasha
+   63  usermod -c 'CEO' anas
+   64  usermod -e 2025-01-01 ahmad
+   65  usermod -e 2025-01-01 yaman
+   66  usermod -e 2025-01-01 hazem
+   67  usermod -e 2025-01-01 salwa
+   68  usermod -e 2025-01-01 rasha
+   69  passwd ahmad
+   70  passwd yaman
+   71  passwd Ali
+   72  passwd hazem
+   73  passwd salwa
+   74  passwd rasha
+   75  passwd anas
+   76  groupadd Engineering
+   77  groupadd Accounting
+   78  groupadd HR
+   79  usermod ahmad -aG Engineer
+   80* 
+   81* 
+   82  usermod ahmad -aG Engineering
+   83  usermod yaman -aG Engineering
+   84  usermod Ali -aG HR Manger
+   85  usermod Ali -aG HR Manager
+   86* 
+   87  usermod salwa -aG Accountant
+   88  usermod salwa -aG Accounting
+   89  usermod rasha -aG Accounting
+   90  mkdir Engineering
+   91  mkdir Accounting
+   92  mkdir HR
+   93  chmod ahmad Engineering
+   94  chmod ahmad+r Engineering
+   95  chown ahmad:Engineering Eng_1.txt
+   96  chown ahmad:Engineering eng_1.txt
+   97  chown salwa:Accounnting acc_1.txt
+   98  chown salwa:Accounting acc_1.txt
+   99  chown salwa:Accounting
+  100  chown salwa:Accounting Accounting
+  101  chown salwa:Accounting Accounting
+  102  chown hazem:HR employee HR
+  103  chown hazem:HR employee HR
+  104  chown hazem:HR HR
+  105  chmod 777 anas
+  106  chmod 777 anas
+  107  chmod r+w+x anas
+  108  chown anas:CEO /Tuwaiq
+  109* 
+  110  chmod 700 /Tuwaiq/
+  111  chown anas:CEO home/Tuwaiq/
+  112  chown anas:CEO
+  113  chown anas:CEO CEO.txt
+  114* 
+  115  chown anas:CEO CEO_1.txt
+  116  chown anas:CEO /Tuwaiq/
+  117  chmod 700 /Tuwaiq/
+  118  ls -lr
+  119  touch eng_3.txt
+  120  touch eng_4.txt
+  121  touch eng_5.txt
+  122  touch HR_3.txt
+  123  touch HR_4.txt
+  124  touch HR_5.txt
+  125  ls -lr
+  126  touch acc_3.txt
+  127  touch acc_4.txt
+  128  touch acc_5.txt
+  129  ls -lr
+  130  cd home
+  131  cd .. home
+  132  cd tmp
+  133  cd ~
+  134* 
+  135  cd /tmp
+  136  mkdir Backup
+  137  cd Backup
+  138  pwd
+  139  cd Tuwaiq
+  140  cd Tuwaiq
+  141  cd home/Tuwaiq
+  142  cd tmp/Tuwaiq
+  143  ls
+  144  zip backup_Tuwaiq Tuwaiq
+  145  gzip backup_Tuwaiq Tuwaiq
+  146  gzip backup Tuwaiq
+  147  ls
+  148  tar cvfz/tmp/backup/backup.gzip/home/Tuwaiq
+  149  zip -r Tuwaiq
+  150  cd Tuwaiq
+  151  cd Tuwaiq
+  152  cat backup.zip
+  153  zip Backup_Tuwaiq Tuwaiq
+  154  gzip Backup_Tuwaiq Tuwaiq
+  155  zip Backup
+  156  gzip Backup
+  157  ls
+  158* [A
+  159  Backup.tar
+  160  zip -r Tuwaiq
+  161  mkdir Tuwaiq
+  162  gzip Backup Tuwaiq
+  163  zip -r Tuwaiq
+  164  tar cvfz /tmp/backup/backup.gzip /home/Tuwaiq
+  165  zip -r backup.zip tuwaiq
+  166  zip -r backup.zip tuwaiq
+  167  zip -r Backup.zip Tuwaiq
+  168  ls
+  169  cd Tuwaiq
+  170  cd Backup
+  171  cd Backup
+  172  cd tmp/Tuwaiq
+  173  cd /tmp
+  174  cd Backup
+  175  ls
+  176  cd Tuwaiq
+  177  history >> Tuwaiq.txt
