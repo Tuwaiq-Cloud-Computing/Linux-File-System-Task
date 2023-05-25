@@ -1,0 +1,30 @@
+.:
+total 12
+drwxr-xr-x 2 salwa Accounting  4096 May 25 16:55 Accounting
+drwxr-xr-x 2 ahmad Engineering 4096 May 25 16:53 Engineering
+drwxr-xr-x 2 ali   HR          4096 May 25 16:55 HR
+-rw-r--r-- 1 root  root           0 May 25 17:44 log.txt
+
+./Accounting:
+total 0
+-rw-r--r-- 1 root root 0 May 25 16:15 acc_1.txt
+-rw-r--r-- 1 root root 0 May 25 16:15 acc_2.txt
+-rw-r--r-- 1 root root 0 May 25 16:15 acc_3.txt
+-rw-r--r-- 1 root root 0 May 25 16:15 acc_4.txt
+-rw-r--r-- 1 root root 0 May 25 16:15 acc_5.txt
+
+./Engineering:
+total 0
+-rw-r--r-- 1 root root 0 May 25 16:14 eng_1.txt
+-rw-r--r-- 1 root root 0 May 25 16:14 eng_2.txt
+-rw-r--r-- 1 root root 0 May 25 16:14 eng_3.txt
+-rw-r--r-- 1 root root 0 May 25 16:15 eng_4.txt
+-rw-r--r-- 1 root root 0 May 25 16:15 eng_5.txt
+
+./HR:
+total 0
+-rw-r--r-- 1 root root 0 May 25 16:16 HR_1.txt
+-rw-r--r-- 1 root root 0 May 25 16:16 HR_2.txt
+-rw-r--r-- 1 root root 0 May 25 16:16 HR_3.txt
+-rw-r--r-- 1 root root 0 May 25 16:16 HR_4.txt
+-rw-r--r-- 1 root root 0 May 25 16:16 HR_5.txt
