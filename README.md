@@ -6,7 +6,7 @@
 You were chosen to be employed at Tuwaiq academy. There are 3 departments (Engineering, Accounting, and HR) at Tuwaiq. From your first workday you were challenged to do the following tasks:<br/>
 <br/>
 1-Create one main folder called Tuwaiq <br/>
-2-Inside Tuwaiq folder create five empty (0 KB) files for each department. The file names should be _.txt, < department first characters >_num.txt, < department first characters >_num+1.txt and so on (you will have 15 files in total). Ex: eng_1.txt, eng_2.txt / acc_1.txt, acc_2.txt <br/>
+2-Inside Tuwaiq folder create 5 empty (0 KB) files for each department. The file names should be _.txt, < department first characters >_num.txt, < department first characters >_num+1.txt and so on (you will have 15 files in total). Ex: eng_1.txt, eng_2.txt / acc_1.txt, acc_2.txt <br/>
 3-Create the following users with description and expiration date (3 years after creation date). No need to add Expiration date for managers and CEO. Users are listed below: <br/>
 
 ![image](https://user-images.githubusercontent.com/85888419/196029805-de31bcca-8c24-4089-93af-7f26e1467f9b.png)
@@ -20,6 +20,6 @@ You were chosen to be employed at Tuwaiq academy. There are 3 departments (Engin
 
 ## Submission:
 
-- After finishing the task take screen shots of the /tmp/backups. Then save the output of ``` ls -lR ```  on Tuwaiq directory to a file and then upload the picture and the text file to the forked repo and then create a pull request.
+- After finishing the task take screen shots of the ``` ls /tmp/backups ```. Then take screen shot output of ``` ls -lR ```  on Tuwaiq directory to a file and then upload the pictures to the forked repo and then create a pull request.
 
 ----------------------------------------------------------------
