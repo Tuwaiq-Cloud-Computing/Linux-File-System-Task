@@ -1,0 +1,30 @@
+/root/Tuwaiq:
+total 12
+dr--rw---- 2 anas Accounting  4096 Aug 27 17:17 Accounting
+dr--rw---- 2 anas Engineering 4096 Aug 27 17:19 Engineering
+dr--rw---- 2 anas HR          4096 Aug 27 17:21 HR
+-rw-r--r-- 1 root root           0 Aug 27 18:26 output.txt
+
+/root/Tuwaiq/Accounting:
+total 0
+-r--rw---- 1 anas root 0 Aug 27 10:21 acc_1.txt
+-r--rw---- 1 anas root 0 Aug 27 10:21 acc_2.txt
+-r--rw---- 1 anas root 0 Aug 27 10:21 acc_3.txt
+-r--rw---- 1 anas root 0 Aug 27 10:21 acc_4.txt
+-r--rw---- 1 anas root 0 Aug 27 10:21 acc_5.txt
+
+/root/Tuwaiq/Engineering:
+total 0
+-r--rw---- 1 anas root 0 Aug 27 10:19 eng_1.txt
+-r--rw---- 1 anas root 0 Aug 27 10:19 eng_2.txt
+-r--rw---- 1 anas root 0 Aug 27 10:19 eng_3.txt
+-r--rw---- 1 anas root 0 Aug 27 10:19 eng_4.txt
+-r--rw---- 1 anas root 0 Aug 27 10:19 eng_5.txt
+
+/root/Tuwaiq/HR:
+total 0
+-r--rw---- 1 anas root 0 Aug 27 10:22 hr_1.txt
+-r--rw---- 1 anas root 0 Aug 27 10:22 hr_2.txt
+-r--rw---- 1 anas root 0 Aug 27 10:22 hr_3.txt
+-r--rw---- 1 anas root 0 Aug 27 10:22 hr_4.txt
+-r--rw---- 1 anas root 0 Aug 27 10:22 hr_5.txt
