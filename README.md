@@ -13,9 +13,9 @@ You were chosen to be employed at Tuwaiq academy. There are 3 departments (Engin
  <br/>
 4-Ensure the addition of the users using some Linux utility.  <br/>
 5- Create 3 groups (Engineering, Accounting, HR) then add the users to their relevant group. <br/>
-6-Your manager asked you to organize the files into 3 separate sub folders (Engineering, Accounting and HR).<br/>
+6-Your manager asked you to organize the files into 3 separate sub-folders (Engineering, Accounting and HR).<br/>
 7-Change user and group ownership for each subfolder to the relevant group (use any user from the department as an owner). Ex: Engineering folder should be owned by Engineering group and then ensure the new ownership.<br/>
-8-Grant the CEO permission to all folders.<br/>
+8-Grant the CEO read permission to all folders, each sub-folders should have the corresponding group with all permission and the other with no permission.<br/>
 9-Create a Backup folder inside the /tmp folder and then backup the company’s data into the backups folder. Use a meaningful name for the backup folder.<br/>
 
 ## Submission:
