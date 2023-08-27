@@ -1,0 +1,79 @@
+                                                                           
+┌──(kali㉿kali)-[~]
+└─$ ls /tmp/backuptu          
+Tuwaiq
+
+------------------------
+                                                                                
+┌──(kali㉿kali)-[~/Desktop]
+└─$ ls -lR                  
+.:
+total 24
+drwxr-xr-x 2 kali kali 4096 Aug 23 14:22 Day-4
+drwxr-xr-x 2 kali kali 4096 Aug 22 15:30 lab2
+-rwxr-xr-x 1 kali kali  504 Aug 27 01:56 mohammed1.sh
+-rwxr-xr-x 1 kali kali  363 Aug 27 02:04 mohammed.sh
+-rw-r--r-- 1 root root    0 Aug 27 02:12 ssss.sh
+drwxr-xr-x 2 kali kali 4096 Aug 27 14:20 tesr
+drwxr-xr-x 5 anas kali 4096 Aug 27 15:33 Tuwaiq
+
+./Day-4:
+total 0
+
+./lab2:
+total 0
+
+./tesr:
+total 0
+-rw-r--r-- 1 kali kali 0 Aug 27 14:20 file1
+-rw-r--r-- 1 kali kali 0 Aug 27 14:20 file10
+-rw-r--r-- 1 kali kali 0 Aug 27 14:20 file11
+-rw-r--r-- 1 kali kali 0 Aug 27 14:20 file12
+-rw-r--r-- 1 kali kali 0 Aug 27 14:20 file13
+-rw-r--r-- 1 kali kali 0 Aug 27 14:20 file14
+-rw-r--r-- 1 kali kali 0 Aug 27 14:20 file15
+-rw-r--r-- 1 kali kali 0 Aug 27 14:20 file2
+-rw-r--r-- 1 kali kali 0 Aug 27 14:20 file3
+-rw-r--r-- 1 kali kali 0 Aug 27 14:20 file4
+-rw-r--r-- 1 kali kali 0 Aug 27 14:20 file5
+-rw-r--r-- 1 kali kali 0 Aug 27 14:20 file6
+-rw-r--r-- 1 kali kali 0 Aug 27 14:20 file7
+-rw-r--r-- 1 kali kali 0 Aug 27 14:20 file8
+-rw-r--r-- 1 kali kali 0 Aug 27 14:20 file9
+
+./Tuwaiq:
+total 12
+drwxr-xr-x 2 salwa Accounting  4096 Aug 27 15:29 Accounting
+drwxr-xr-x 2 ahmad Engineering 4096 Aug 27 15:33 Engineering
+drwxr-xr-x 2 al1   HR          4096 Aug 27 14:51 HR
+
+./Tuwaiq/Accounting:
+total 0
+-rw-r--r-- 1 kali kali 0 Aug 27 14:29 acc_1.txt
+-rw-r--r-- 1 kali kali 0 Aug 27 14:23 acc_1.txt2
+-rw-r--r-- 1 kali kali 0 Aug 27 14:23 acc_1.txt3
+-rw-r--r-- 1 kali kali 0 Aug 27 14:23 acc_1.txt4
+-rw-r--r-- 1 kali kali 0 Aug 27 14:23 acc_1.txt5
+-rw-r--r-- 1 kali kali 0 Aug 27 14:23 acc_2.txt1
+-rw-r--r-- 1 kali kali 0 Aug 27 14:23 acc_2.txt2
+-rw-r--r-- 1 kali kali 0 Aug 27 14:23 acc_2.txt3
+-rw-r--r-- 1 kali kali 0 Aug 27 14:23 acc_2.txt4
+-rw-r--r-- 1 kali kali 0 Aug 27 14:23 acc_2.txt5
+
+./Tuwaiq/Engineering:
+total 0
+-rw-r--r-- 1 kali kali 0 Aug 27 14:22 eng_1.txt1
+-rw-r--r-- 1 kali kali 0 Aug 27 14:22 eng_1.txt2
+-rw-r--r-- 1 kali kali 0 Aug 27 14:22 eng_1.txt3
+-rw-r--r-- 1 kali kali 0 Aug 27 14:22 eng_1.txt4
+-rw-r--r-- 1 kali kali 0 Aug 27 14:22 eng_1.txt5
+-rw-r--r-- 1 kali kali 0 Aug 27 14:23 eng_2.txt1
+-rw-r--r-- 1 kali kali 0 Aug 27 14:23 eng_2.txt2
+-rw-r--r-- 1 kali kali 0 Aug 27 14:23 eng_2.txt3
+-rw-r--r-- 1 kali kali 0 Aug 27 14:23 eng_2.txt4
+-rw-r--r-- 1 kali kali 0 Aug 27 14:23 eng_2.txt5
+
+./Tuwaiq/HR:
+total 0
+      
+
