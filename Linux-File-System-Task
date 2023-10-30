@@ -1,0 +1,625 @@
+Last login: Sat Oct 28 09:57:42 on ttys003
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+MacBook-Pro:~ anwar$  docker start -ai tuwaiq-centos 
+[root@b3844c32e4d5 ~]# ls
+anaconda-ks.cfg  anaconda-post.log  mydir  original-ks.cfg
+[root@b3844c32e4d5 ~]# cd mydir
+[root@b3844c32e4d5 mydir]# ls
+err.log    file2.txt  file4.txt  grep	 securecopy.txt  useradd-man.txt
+file1.txt  file3.txt  file.txt	 mydir2  sep2022.txt
+[root@b3844c32e4d5 mydir]# pwd
+/root/mydir
+[root@b3844c32e4d5 mydir]# ls
+err.log    file2.txt  file4.txt  grep	 securecopy.txt  useradd-man.txt
+file1.txt  file3.txt  file.txt	 mydir2  sep2022.txt
+[root@b3844c32e4d5 mydir]# ls -l /root/mydir/file4.txt
+-rw-r--r-- 1 root root 0 Oct 28 13:46 /root/mydir/file4.txt
+[root@b3844c32e4d5 mydir]# cd -
+/root
+[root@b3844c32e4d5 ~]# cd /etc/
+[root@b3844c32e4d5 etc]# cd -
+/root
+[root@b3844c32e4d5 ~]# cd-
+bash: cd-: command not found
+[root@b3844c32e4d5 ~]# cd -
+/etc
+[root@b3844c32e4d5 etc]# cd -
+/root
+[root@b3844c32e4d5 ~]# cd mydir
+[root@b3844c32e4d5 mydir]# ls
+err.log    file2.txt  file4.txt  grep	 securecopy.txt  useradd-man.txt
+file1.txt  file3.txt  file.txt	 mydir2  sep2022.txt
+[root@b3844c32e4d5 mydir]# cd..
+bash: cd..: command not found
+[root@b3844c32e4d5 mydir]# cd ..
+[root@b3844c32e4d5 ~]# mkdir Tuwaiq
+[root@b3844c32e4d5 ~]# cd Tuwaiq
+[root@b3844c32e4d5 Tuwaiq]# touch Eng_1.txt Eng_2.txt  Eng_3.txt  Eng_4.txt  Eng_5.txt Acc_1.txt Acc_2.txt Acc_3.txt Acc_4.txt Acc_5.txt HR_1.txt HR_2.txt HR_3.txt HR_4.txt HR_5.txt   
+[root@b3844c32e4d5 Tuwaiq]# ls
+Acc_1.txt  Acc_4.txt  Eng_2.txt  Eng_5.txt  HR_3.txt
+Acc_2.txt  Acc_5.txt  Eng_3.txt  HR_1.txt   HR_4.txt
+Acc_3.txt  Eng_1.txt  Eng_4.txt  HR_2.txt   HR_5.txt
+[root@b3844c32e4d5 Tuwaiq]# useradd -c "Engineer" Ahmad 
+[root@b3844c32e4d5 Tuwaiq]# useradd -c "Engineer" Yaman
+[root@b3844c32e4d5 Tuwaiq]# useradd -c "HR Manager" Ali
+useradd: user 'Ali' already exists
+[root@b3844c32e4d5 Tuwaiq]# useradd -c "HR employee" Hazem
+[root@b3844c32e4d5 Tuwaiq]# useradd -c "Accountant" Salwa
+[root@b3844c32e4d5 Tuwaiq]# useradd -c "Accountant" Rasha
+[root@b3844c32e4d5 Tuwaiq]# useradd -c "CEO" Anas
+[root@b3844c32e4d5 Tuwaiq]# cat /etc/passwd
+root:x:0:0:root:/root:/bin/bash
+bin:x:1:1:bin:/bin:/sbin/nologin
+daemon:x:2:2:daemon:/sbin:/sbin/nologin
+adm:x:3:4:adm:/var/adm:/sbin/nologin
+lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin
+sync:x:5:0:sync:/sbin:/bin/sync
+shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
+halt:x:7:0:halt:/sbin:/sbin/halt
+mail:x:8:12:mail:/var/spool/mail:/sbin/nologin
+operator:x:11:0:operator:/root:/sbin/nologin
+games:x:12:100:games:/usr/games:/sbin/nologin
+ftp:x:14:50:FTP User:/var/ftp:/sbin/nologin
+nobody:x:65534:65534:Kernel Overflow User:/:/sbin/nologin
+dbus:x:81:81:System message bus:/:/sbin/nologin
+systemd-coredump:x:999:997:systemd Core Dumper:/:/sbin/nologin
+systemd-resolve:x:193:193:systemd Resolver:/:/sbin/nologin
+tss:x:59:59:Account used for TPM access:/dev/null:/sbin/nologin
+unbound:x:998:996:Unbound DNS resolver:/etc/unbound:/sbin/nologin
+nwar:x:1000:1000::/home/nwar:/bin/bash
+Ali:x:1001:1001:CEO:/home/Ali:/bin/bash
+Salem:x:1002:1002:HR,Manager:/home/Salem:/bin/bash
+Sara:x:1003:1003:Shipping:/home/Sara:/bin/bash
+Deem:x:1004:1004:HR Specialist:/home/Deem:/bin/bash
+Hanan:x:1005:1005:Sales representative:/home/Hanan:/bin/bash
+Naif:x:1006:1006:Shipping:/home/Naif:/bin/bash
+Norah:x:1007:1007:HR:/home/Norah:/bin/bash
+Khaled:x:1008:1008:Sales representative:/home/Khaled:/bin/bash
+Ahmad:x:1009:1014:Engineer:/home/Ahmad:/bin/bash
+Yaman:x:1010:1015:Engineer:/home/Yaman:/bin/bash
+Hazem:x:1011:1016:HR employee:/home/Hazem:/bin/bash
+Salwa:x:1012:1017:Accountant:/home/Salwa:/bin/bash
+Rasha:x:1013:1018:Accountant:/home/Rasha:/bin/bash
+Anas:x:1014:1019:CEO:/home/Anas:/bin/bash
+[root@b3844c32e4d5 Tuwaiq]# groupadd engineer
+[root@b3844c32e4d5 Tuwaiq]# groupadd HR
+groupadd: group 'HR' already exists
+[root@b3844c32e4d5 Tuwaiq]# groupadd Engineer
+[root@b3844c32e4d5 Tuwaiq]# groupadd hr
+[root@b3844c32e4d5 Tuwaiq]# groupadd accountant
+[root@b3844c32e4d5 Tuwaiq]# usermod Ahmad -aG engineer
+[root@b3844c32e4d5 Tuwaiq]# usermod Yaman -aG engineer
+[root@b3844c32e4d5 Tuwaiq]# usermod Ali -aG hr
+[root@b3844c32e4d5 Tuwaiq]# usermod Hazem -aG hr
+[root@b3844c32e4d5 Tuwaiq]# usermod Salwa -aG hr
+[root@b3844c32e4d5 Tuwaiq]# usermod Salwa -aG accountant
+[root@b3844c32e4d5 Tuwaiq]# usermod  Rasha -aG accountant
+[root@b3844c32e4d5 Tuwaiq]# cat /etc/passwd
+root:x:0:0:root:/root:/bin/bash
+bin:x:1:1:bin:/bin:/sbin/nologin
+daemon:x:2:2:daemon:/sbin:/sbin/nologin
+adm:x:3:4:adm:/var/adm:/sbin/nologin
+lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin
+sync:x:5:0:sync:/sbin:/bin/sync
+shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
+halt:x:7:0:halt:/sbin:/sbin/halt
+mail:x:8:12:mail:/var/spool/mail:/sbin/nologin
+operator:x:11:0:operator:/root:/sbin/nologin
+games:x:12:100:games:/usr/games:/sbin/nologin
+ftp:x:14:50:FTP User:/var/ftp:/sbin/nologin
+nobody:x:65534:65534:Kernel Overflow User:/:/sbin/nologin
+dbus:x:81:81:System message bus:/:/sbin/nologin
+systemd-coredump:x:999:997:systemd Core Dumper:/:/sbin/nologin
+systemd-resolve:x:193:193:systemd Resolver:/:/sbin/nologin
+tss:x:59:59:Account used for TPM access:/dev/null:/sbin/nologin
+unbound:x:998:996:Unbound DNS resolver:/etc/unbound:/sbin/nologin
+nwar:x:1000:1000::/home/nwar:/bin/bash
+Ali:x:1001:1001:CEO:/home/Ali:/bin/bash
+Salem:x:1002:1002:HR,Manager:/home/Salem:/bin/bash
+Sara:x:1003:1003:Shipping:/home/Sara:/bin/bash
+Deem:x:1004:1004:HR Specialist:/home/Deem:/bin/bash
+Hanan:x:1005:1005:Sales representative:/home/Hanan:/bin/bash
+Naif:x:1006:1006:Shipping:/home/Naif:/bin/bash
+Norah:x:1007:1007:HR:/home/Norah:/bin/bash
+Khaled:x:1008:1008:Sales representative:/home/Khaled:/bin/bash
+Ahmad:x:1009:1014:Engineer:/home/Ahmad:/bin/bash
+Yaman:x:1010:1015:Engineer:/home/Yaman:/bin/bash
+Hazem:x:1011:1016:HR employee:/home/Hazem:/bin/bash
+Salwa:x:1012:1017:Accountant:/home/Salwa:/bin/bash
+Rasha:x:1013:1018:Accountant:/home/Rasha:/bin/bash
+Anas:x:1014:1019:CEO:/home/Anas:/bin/bash
+[root@b3844c32e4d5 Tuwaiq]# tail -n 3 /etc/group
+Engineer:x:1021:
+hr:x:1022:Ali,Hazem,Salwa
+accountant:x:1023:Salwa,Rasha
+[root@b3844c32e4d5 Tuwaiq]# tail -n 5 /etc/group
+Anas:x:1019:
+engineer:x:1020:Ahmad,Yaman
+Engineer:x:1021:
+hr:x:1022:Ali,Hazem,Salwa
+accountant:x:1023:Salwa,Rasha
+[root@b3844c32e4d5 Tuwaiq]# useradd -e 10-29-26 Ahmad
+useradd: user 'Ahmad' already exists
+[root@b3844c32e4d5 Tuwaiq]# usermod -e 10-29-26 Ahmad
+[root@b3844c32e4d5 Tuwaiq]# usermod -e 10-29-26 Yaman
+[root@b3844c32e4d5 Tuwaiq]# usermod -e 10-29-26 Hazem
+[root@b3844c32e4d5 Tuwaiq]# usermod -e 10-29-26 Salwa
+[root@b3844c32e4d5 Tuwaiq]# usermod -e 10-29-26 Rasha
+[root@b3844c32e4d5 Tuwaiq]# for users in Ahmad Yaman Ali Hazem Salwa Rasha Anas
+> do
+> useradd $users
+> echo -p P@ssword123!
+> done
+useradd: user 'Ahmad' already exists
+-p P@ssword123!
+useradd: user 'Yaman' already exists
+-p P@ssword123!
+useradd: user 'Ali' already exists
+-p P@ssword123!
+useradd: user 'Hazem' already exists
+-p P@ssword123!
+useradd: user 'Salwa' already exists
+-p P@ssword123!
+useradd: user 'Rasha' already exists
+-p P@ssword123!
+useradd: user 'Anas' already exists
+-p P@ssword123!
+[root@b3844c32e4d5 Tuwaiq]# mkdir Engineering
+[root@b3844c32e4d5 Tuwaiq]# mkdir Accounting
+[root@b3844c32e4d5 Tuwaiq]# mkdir HR
+[root@b3844c32e4d5 Tuwaiq]# mv eng_* Engineering
+mv: cannot stat 'eng_*': No such file or directory
+[root@b3844c32e4d5 Tuwaiq]# mv eng_*Engineering
+mv: missing destination file operand after 'eng_*Engineering'
+Try 'mv --help' for more information.
+[root@b3844c32e4d5 Tuwaiq]# mv eng_* Engineering
+mv: cannot stat 'eng_*': No such file or directory
+[root@b3844c32e4d5 Tuwaiq]# mv Eng_* Engineering
+[root@b3844c32e4d5 Tuwaiq]# mv Acc_* Accounting
+[root@b3844c32e4d5 Tuwaiq]# mv HR_* HR
+[root@b3844c32e4d5 Tuwaiq]# LS
+bash: LS: command not found
+[root@b3844c32e4d5 Tuwaiq]# ls
+Accounting  Engineering  HR
+[root@b3844c32e4d5 Tuwaiq]# cd Accounting
+[root@b3844c32e4d5 Accounting]# ls
+Acc_1.txt  Acc_2.txt  Acc_3.txt  Acc_4.txt  Acc_5.txt
+[root@b3844c32e4d5 Accounting]# cd..
+bash: cd..: command not found
+[root@b3844c32e4d5 Accounting]# cd -
+/root/Tuwaiq
+[root@b3844c32e4d5 Tuwaiq]# pwd
+/root/Tuwaiq
+[root@b3844c32e4d5 Tuwaiq]# chown -R Ahmad:engineer ./ Engineering
+[root@b3844c32e4d5 Tuwaiq]# ls -l
+total 12
+drwxr-xr-x 2 Ahmad engineer 4096 Oct 29 12:03 Accounting
+drwxr-xr-x 2 Ahmad engineer 4096 Oct 29 12:02 Engineering
+drwxr-xr-x 2 Ahmad engineer 4096 Oct 29 12:03 HR
+[root@b3844c32e4d5 Tuwaiq]# ls -lR
+.:
+total 12
+drwxr-xr-x 2 Ahmad engineer 4096 Oct 29 12:03 Accounting
+drwxr-xr-x 2 Ahmad engineer 4096 Oct 29 12:02 Engineering
+drwxr-xr-x 2 Ahmad engineer 4096 Oct 29 12:03 HR
+
+./Accounting:
+total 0
+-rw-r--r-- 1 Ahmad engineer 0 Oct 29 11:08 Acc_1.txt
+-rw-r--r-- 1 Ahmad engineer 0 Oct 29 11:08 Acc_2.txt
+-rw-r--r-- 1 Ahmad engineer 0 Oct 29 11:08 Acc_3.txt
+-rw-r--r-- 1 Ahmad engineer 0 Oct 29 11:08 Acc_4.txt
+-rw-r--r-- 1 Ahmad engineer 0 Oct 29 11:08 Acc_5.txt
+
+./Engineering:
+total 0
+-rw-r--r-- 1 Ahmad engineer 0 Oct 29 11:08 Eng_1.txt
+-rw-r--r-- 1 Ahmad engineer 0 Oct 29 11:08 Eng_2.txt
+-rw-r--r-- 1 Ahmad engineer 0 Oct 29 11:08 Eng_3.txt
+-rw-r--r-- 1 Ahmad engineer 0 Oct 29 11:08 Eng_4.txt
+-rw-r--r-- 1 Ahmad engineer 0 Oct 29 11:08 Eng_5.txt
+
+./HR:
+total 0
+-rw-r--r-- 1 Ahmad engineer 0 Oct 29 11:08 HR_1.txt
+-rw-r--r-- 1 Ahmad engineer 0 Oct 29 11:08 HR_2.txt
+-rw-r--r-- 1 Ahmad engineer 0 Oct 29 11:08 HR_3.txt
+-rw-r--r-- 1 Ahmad engineer 0 Oct 29 11:08 HR_4.txt
+-rw-r--r-- 1 Ahmad engineer 0 Oct 29 11:08 HR_5.txt
+[root@b3844c32e4d5 Tuwaiq]# 
+[root@b3844c32e4d5 Tuwaiq]# chown Ali:HR HR
+[root@b3844c32e4d5 Tuwaiq]# ls -lR
+.:
+total 12
+drwxr-xr-x 2 Ahmad engineer 4096 Oct 29 12:03 Accounting
+drwxr-xr-x 2 Ahmad engineer 4096 Oct 29 12:02 Engineering
+drwxr-xr-x 2 Ali   HR       4096 Oct 29 12:03 HR
+
+./Accounting:
+total 0
+-rw-r--r-- 1 Ahmad engineer 0 Oct 29 11:08 Acc_1.txt
+-rw-r--r-- 1 Ahmad engineer 0 Oct 29 11:08 Acc_2.txt
+-rw-r--r-- 1 Ahmad engineer 0 Oct 29 11:08 Acc_3.txt
+-rw-r--r-- 1 Ahmad engineer 0 Oct 29 11:08 Acc_4.txt
+-rw-r--r-- 1 Ahmad engineer 0 Oct 29 11:08 Acc_5.txt
+
+./Engineering:
+total 0
+-rw-r--r-- 1 Ahmad engineer 0 Oct 29 11:08 Eng_1.txt
+-rw-r--r-- 1 Ahmad engineer 0 Oct 29 11:08 Eng_2.txt
+-rw-r--r-- 1 Ahmad engineer 0 Oct 29 11:08 Eng_3.txt
+-rw-r--r-- 1 Ahmad engineer 0 Oct 29 11:08 Eng_4.txt
+-rw-r--r-- 1 Ahmad engineer 0 Oct 29 11:08 Eng_5.txt
+
+./HR:
+total 0
+-rw-r--r-- 1 Ahmad engineer 0 Oct 29 11:08 HR_1.txt
+-rw-r--r-- 1 Ahmad engineer 0 Oct 29 11:08 HR_2.txt
+-rw-r--r-- 1 Ahmad engineer 0 Oct 29 11:08 HR_3.txt
+-rw-r--r-- 1 Ahmad engineer 0 Oct 29 11:08 HR_4.txt
+-rw-r--r-- 1 Ahmad engineer 0 Oct 29 11:08 HR_5.txt
+[root@b3844c32e4d5 Tuwaiq]# chown -R Ali:HR HR
+[root@b3844c32e4d5 Tuwaiq]# ls -lR
+.:
+total 12
+drwxr-xr-x 2 Ahmad engineer 4096 Oct 29 12:03 Accounting
+drwxr-xr-x 2 Ahmad engineer 4096 Oct 29 12:02 Engineering
+drwxr-xr-x 2 Ali   HR       4096 Oct 29 12:03 HR
+
+./Accounting:
+total 0
+-rw-r--r-- 1 Ahmad engineer 0 Oct 29 11:08 Acc_1.txt
+-rw-r--r-- 1 Ahmad engineer 0 Oct 29 11:08 Acc_2.txt
+-rw-r--r-- 1 Ahmad engineer 0 Oct 29 11:08 Acc_3.txt
+-rw-r--r-- 1 Ahmad engineer 0 Oct 29 11:08 Acc_4.txt
+-rw-r--r-- 1 Ahmad engineer 0 Oct 29 11:08 Acc_5.txt
+
+./Engineering:
+total 0
+-rw-r--r-- 1 Ahmad engineer 0 Oct 29 11:08 Eng_1.txt
+-rw-r--r-- 1 Ahmad engineer 0 Oct 29 11:08 Eng_2.txt
+-rw-r--r-- 1 Ahmad engineer 0 Oct 29 11:08 Eng_3.txt
+-rw-r--r-- 1 Ahmad engineer 0 Oct 29 11:08 Eng_4.txt
+-rw-r--r-- 1 Ahmad engineer 0 Oct 29 11:08 Eng_5.txt
+
+./HR:
+total 0
+-rw-r--r-- 1 Ali HR 0 Oct 29 11:08 HR_1.txt
+-rw-r--r-- 1 Ali HR 0 Oct 29 11:08 HR_2.txt
+-rw-r--r-- 1 Ali HR 0 Oct 29 11:08 HR_3.txt
+-rw-r--r-- 1 Ali HR 0 Oct 29 11:08 HR_4.txt
+-rw-r--r-- 1 Ali HR 0 Oct 29 11:08 HR_5.txt
+[root@b3844c32e4d5 Tuwaiq]# chown -R Ahmad:Engineering Eng
+chown: invalid group: ‘Ahmad:Engineering’
+[root@b3844c32e4d5 Tuwaiq]# chown -R Ahmad:engineer Eng
+chown: cannot access 'Eng': No such file or directory
+[root@b3844c32e4d5 Tuwaiq]# ls
+Accounting  Engineering  HR
+[root@b3844c32e4d5 Tuwaiq]# accounting
+bash: accounting: command not found
+[root@b3844c32e4d5 Tuwaiq]# cd accountibg
+bash: cd: accountibg: No such file or directory
+[root@b3844c32e4d5 Tuwaiq]# cd Accounting
+[root@b3844c32e4d5 Accounting]# ls
+Acc_1.txt  Acc_2.txt  Acc_3.txt  Acc_4.txt  Acc_5.txt
+[root@b3844c32e4d5 Accounting]# cd..
+bash: cd..: command not found
+[root@b3844c32e4d5 Accounting]# cd -
+/root/Tuwaiq
+[root@b3844c32e4d5 Tuwaiq]# chown -R Ahmad:engineer Eng
+chown: cannot access 'Eng': No such file or directory
+[root@b3844c32e4d5 Tuwaiq]# chown -R Ahmad:engineer Engineering
+[root@b3844c32e4d5 Tuwaiq]# ls -lR
+.:
+total 12
+drwxr-xr-x 2 Ahmad engineer 4096 Oct 29 12:03 Accounting
+drwxr-xr-x 2 Ahmad engineer 4096 Oct 29 12:02 Engineering
+drwxr-xr-x 2 Ali   HR       4096 Oct 29 12:03 HR
+
+./Accounting:
+total 0
+-rw-r--r-- 1 Ahmad engineer 0 Oct 29 11:08 Acc_1.txt
+-rw-r--r-- 1 Ahmad engineer 0 Oct 29 11:08 Acc_2.txt
+-rw-r--r-- 1 Ahmad engineer 0 Oct 29 11:08 Acc_3.txt
+-rw-r--r-- 1 Ahmad engineer 0 Oct 29 11:08 Acc_4.txt
+-rw-r--r-- 1 Ahmad engineer 0 Oct 29 11:08 Acc_5.txt
+
+./Engineering:
+total 0
+-rw-r--r-- 1 Ahmad engineer 0 Oct 29 11:08 Eng_1.txt
+-rw-r--r-- 1 Ahmad engineer 0 Oct 29 11:08 Eng_2.txt
+-rw-r--r-- 1 Ahmad engineer 0 Oct 29 11:08 Eng_3.txt
+-rw-r--r-- 1 Ahmad engineer 0 Oct 29 11:08 Eng_4.txt
+-rw-r--r-- 1 Ahmad engineer 0 Oct 29 11:08 Eng_5.txt
+
+./HR:
+total 0
+-rw-r--r-- 1 Ali HR 0 Oct 29 11:08 HR_1.txt
+-rw-r--r-- 1 Ali HR 0 Oct 29 11:08 HR_2.txt
+-rw-r--r-- 1 Ali HR 0 Oct 29 11:08 HR_3.txt
+-rw-r--r-- 1 Ali HR 0 Oct 29 11:08 HR_4.txt
+-rw-r--r-- 1 Ali HR 0 Oct 29 11:08 HR_5.txt
+[root@b3844c32e4d5 Tuwaiq]# chown -R Salwa:accountant Accounting
+[root@b3844c32e4d5 Tuwaiq]# ls -lR
+.:
+total 12
+drwxr-xr-x 2 Salwa accountant 4096 Oct 29 12:03 Accounting
+drwxr-xr-x 2 Ahmad engineer   4096 Oct 29 12:02 Engineering
+drwxr-xr-x 2 Ali   HR         4096 Oct 29 12:03 HR
+
+./Accounting:
+total 0
+-rw-r--r-- 1 Salwa accountant 0 Oct 29 11:08 Acc_1.txt
+-rw-r--r-- 1 Salwa accountant 0 Oct 29 11:08 Acc_2.txt
+-rw-r--r-- 1 Salwa accountant 0 Oct 29 11:08 Acc_3.txt
+-rw-r--r-- 1 Salwa accountant 0 Oct 29 11:08 Acc_4.txt
+-rw-r--r-- 1 Salwa accountant 0 Oct 29 11:08 Acc_5.txt
+
+./Engineering:
+total 0
+-rw-r--r-- 1 Ahmad engineer 0 Oct 29 11:08 Eng_1.txt
+-rw-r--r-- 1 Ahmad engineer 0 Oct 29 11:08 Eng_2.txt
+-rw-r--r-- 1 Ahmad engineer 0 Oct 29 11:08 Eng_3.txt
+-rw-r--r-- 1 Ahmad engineer 0 Oct 29 11:08 Eng_4.txt
+-rw-r--r-- 1 Ahmad engineer 0 Oct 29 11:08 Eng_5.txt
+
+./HR:
+total 0
+-rw-r--r-- 1 Ali HR 0 Oct 29 11:08 HR_1.txt
+-rw-r--r-- 1 Ali HR 0 Oct 29 11:08 HR_2.txt
+-rw-r--r-- 1 Ali HR 0 Oct 29 11:08 HR_3.txt
+-rw-r--r-- 1 Ali HR 0 Oct 29 11:08 HR_4.txt
+-rw-r--r-- 1 Ali HR 0 Oct 29 11:08 HR_5.txt
+[root@b3844c32e4d5 Tuwaiq]# cd..
+bash: cd..: command not found
+[root@b3844c32e4d5 Tuwaiq]# cd-
+bash: cd-: command not found
+[root@b3844c32e4d5 Tuwaiq]# cd -
+/root/Tuwaiq/Accounting
+[root@b3844c32e4d5 Accounting]# cd..
+bash: cd..: command not found
+[root@b3844c32e4d5 Accounting]# cd ..
+[root@b3844c32e4d5 Tuwaiq]# cd ..
+[root@b3844c32e4d5 ~]# ls
+anaconda-ks.cfg  anaconda-post.log  mydir  original-ks.cfg  Tuwaiq
+[root@b3844c32e4d5 ~]# chmod +r Tuwaiq
+[root@b3844c32e4d5 ~]# ls -lR
+.:
+total 20
+-rw------- 1 root  root     2361 Sep 15  2021 anaconda-ks.cfg
+-rw-r--r-- 1 root  root      608 Sep 15  2021 anaconda-post.log
+drwxr-xr-x 3 root  root     4096 Oct 29 07:57 mydir
+-rw------- 1 root  root     2059 Sep 15  2021 original-ks.cfg
+drwxr-xr-x 5 Ahmad engineer 4096 Oct 29 12:03 Tuwaiq
+
+./mydir:
+total 524
+-rw-r--r-- 1 root root     31 Oct 29 07:06 err.log
+-rw-r--r-- 1 root root      0 Oct 28 13:46 file1.txt
+-rw-r--r-- 1 root root     15 Oct 28 13:57 file2.txt
+-rw-r--r-- 1 root root     14 Oct 28 14:00 file3.txt
+-rw-r--r-- 1 root root      0 Oct 28 13:46 file4.txt
+-rw-r--r-- 1 root root      9 Oct 28 07:14 file.txt
+-rw-r--r-- 1 root root      0 Oct 29 07:57 grep
+drwxr-xr-x 2 root root   4096 Oct 26 10:12 mydir2
+-rw------- 1 root root 488240 Oct 26 11:00 securecopy.txt
+-rw-r--r-- 1 root root    168 Oct 29 07:04 sep2022.txt
+-rw-r--r-- 1 root root  17802 Oct 26 11:28 useradd-man.txt
+
+./mydir/mydir2:
+total 0
+-rw-r--r-- 1 root root 0 Oct 26 10:02 anwar.txt
+
+./Tuwaiq:
+total 12
+drwxr-xr-x 2 Salwa accountant 4096 Oct 29 12:03 Accounting
+drwxr-xr-x 2 Ahmad engineer   4096 Oct 29 12:02 Engineering
+drwxr-xr-x 2 Ali   HR         4096 Oct 29 12:03 HR
+
+./Tuwaiq/Accounting:
+total 0
+-rw-r--r-- 1 Salwa accountant 0 Oct 29 11:08 Acc_1.txt
+-rw-r--r-- 1 Salwa accountant 0 Oct 29 11:08 Acc_2.txt
+-rw-r--r-- 1 Salwa accountant 0 Oct 29 11:08 Acc_3.txt
+-rw-r--r-- 1 Salwa accountant 0 Oct 29 11:08 Acc_4.txt
+-rw-r--r-- 1 Salwa accountant 0 Oct 29 11:08 Acc_5.txt
+
+./Tuwaiq/Engineering:
+total 0
+-rw-r--r-- 1 Ahmad engineer 0 Oct 29 11:08 Eng_1.txt
+-rw-r--r-- 1 Ahmad engineer 0 Oct 29 11:08 Eng_2.txt
+-rw-r--r-- 1 Ahmad engineer 0 Oct 29 11:08 Eng_3.txt
+-rw-r--r-- 1 Ahmad engineer 0 Oct 29 11:08 Eng_4.txt
+-rw-r--r-- 1 Ahmad engineer 0 Oct 29 11:08 Eng_5.txt
+
+./Tuwaiq/HR:
+total 0
+-rw-r--r-- 1 Ali HR 0 Oct 29 11:08 HR_1.txt
+-rw-r--r-- 1 Ali HR 0 Oct 29 11:08 HR_2.txt
+-rw-r--r-- 1 Ali HR 0 Oct 29 11:08 HR_3.txt
+-rw-r--r-- 1 Ali HR 0 Oct 29 11:08 HR_4.txt
+-rw-r--r-- 1 Ali HR 0 Oct 29 11:08 HR_5.txt
+[root@b3844c32e4d5 ~]# usermod Anas -aG engineer,hr,accountant
+[root@b3844c32e4d5 ~]# ls -lR
+.:
+total 20
+-rw------- 1 root  root     2361 Sep 15  2021 anaconda-ks.cfg
+-rw-r--r-- 1 root  root      608 Sep 15  2021 anaconda-post.log
+drwxr-xr-x 3 root  root     4096 Oct 29 07:57 mydir
+-rw------- 1 root  root     2059 Sep 15  2021 original-ks.cfg
+drwxr-xr-x 5 Ahmad engineer 4096 Oct 29 12:03 Tuwaiq
+
+./mydir:
+total 524
+-rw-r--r-- 1 root root     31 Oct 29 07:06 err.log
+-rw-r--r-- 1 root root      0 Oct 28 13:46 file1.txt
+-rw-r--r-- 1 root root     15 Oct 28 13:57 file2.txt
+-rw-r--r-- 1 root root     14 Oct 28 14:00 file3.txt
+-rw-r--r-- 1 root root      0 Oct 28 13:46 file4.txt
+-rw-r--r-- 1 root root      9 Oct 28 07:14 file.txt
+-rw-r--r-- 1 root root      0 Oct 29 07:57 grep
+drwxr-xr-x 2 root root   4096 Oct 26 10:12 mydir2
+-rw------- 1 root root 488240 Oct 26 11:00 securecopy.txt
+-rw-r--r-- 1 root root    168 Oct 29 07:04 sep2022.txt
+-rw-r--r-- 1 root root  17802 Oct 26 11:28 useradd-man.txt
+
+./mydir/mydir2:
+total 0
+-rw-r--r-- 1 root root 0 Oct 26 10:02 anwar.txt
+
+./Tuwaiq:
+total 12
+drwxr-xr-x 2 Salwa accountant 4096 Oct 29 12:03 Accounting
+drwxr-xr-x 2 Ahmad engineer   4096 Oct 29 12:02 Engineering
+drwxr-xr-x 2 Ali   HR         4096 Oct 29 12:03 HR
+
+./Tuwaiq/Accounting:
+total 0
+-rw-r--r-- 1 Salwa accountant 0 Oct 29 11:08 Acc_1.txt
+-rw-r--r-- 1 Salwa accountant 0 Oct 29 11:08 Acc_2.txt
+-rw-r--r-- 1 Salwa accountant 0 Oct 29 11:08 Acc_3.txt
+-rw-r--r-- 1 Salwa accountant 0 Oct 29 11:08 Acc_4.txt
+-rw-r--r-- 1 Salwa accountant 0 Oct 29 11:08 Acc_5.txt
+
+./Tuwaiq/Engineering:
+total 0
+-rw-r--r-- 1 Ahmad engineer 0 Oct 29 11:08 Eng_1.txt
+-rw-r--r-- 1 Ahmad engineer 0 Oct 29 11:08 Eng_2.txt
+-rw-r--r-- 1 Ahmad engineer 0 Oct 29 11:08 Eng_3.txt
+-rw-r--r-- 1 Ahmad engineer 0 Oct 29 11:08 Eng_4.txt
+-rw-r--r-- 1 Ahmad engineer 0 Oct 29 11:08 Eng_5.txt
+
+./Tuwaiq/HR:
+total 0
+-rw-r--r-- 1 Ali HR 0 Oct 29 11:08 HR_1.txt
+-rw-r--r-- 1 Ali HR 0 Oct 29 11:08 HR_2.txt
+-rw-r--r-- 1 Ali HR 0 Oct 29 11:08 HR_3.txt
+-rw-r--r-- 1 Ali HR 0 Oct 29 11:08 HR_4.txt
+-rw-r--r-- 1 Ali HR 0 Oct 29 11:08 HR_5.txt
+[root@b3844c32e4d5 ~]# groups Anas
+Anas : Anas engineer hr accountant
+[root@b3844c32e4d5 ~]# ls -lR
+.:
+total 20
+-rw------- 1 root  root     2361 Sep 15  2021 anaconda-ks.cfg
+-rw-r--r-- 1 root  root      608 Sep 15  2021 anaconda-post.log
+drwxr-xr-x 3 root  root     4096 Oct 29 07:57 mydir
+-rw------- 1 root  root     2059 Sep 15  2021 original-ks.cfg
+drwxr-xr-x 5 Ahmad engineer 4096 Oct 29 12:03 Tuwaiq
+
+./mydir:
+total 524
+-rw-r--r-- 1 root root     31 Oct 29 07:06 err.log
+-rw-r--r-- 1 root root      0 Oct 28 13:46 file1.txt
+-rw-r--r-- 1 root root     15 Oct 28 13:57 file2.txt
+-rw-r--r-- 1 root root     14 Oct 28 14:00 file3.txt
+-rw-r--r-- 1 root root      0 Oct 28 13:46 file4.txt
+-rw-r--r-- 1 root root      9 Oct 28 07:14 file.txt
+-rw-r--r-- 1 root root      0 Oct 29 07:57 grep
+drwxr-xr-x 2 root root   4096 Oct 26 10:12 mydir2
+-rw------- 1 root root 488240 Oct 26 11:00 securecopy.txt
+-rw-r--r-- 1 root root    168 Oct 29 07:04 sep2022.txt
+-rw-r--r-- 1 root root  17802 Oct 26 11:28 useradd-man.txt
+
+./mydir/mydir2:
+total 0
+-rw-r--r-- 1 root root 0 Oct 26 10:02 anwar.txt
+
+./Tuwaiq:
+total 12
+drwxr-xr-x 2 Salwa accountant 4096 Oct 29 12:03 Accounting
+drwxr-xr-x 2 Ahmad engineer   4096 Oct 29 12:02 Engineering
+drwxr-xr-x 2 Ali   HR         4096 Oct 29 12:03 HR
+
+./Tuwaiq/Accounting:
+total 0
+-rw-r--r-- 1 Salwa accountant 0 Oct 29 11:08 Acc_1.txt
+-rw-r--r-- 1 Salwa accountant 0 Oct 29 11:08 Acc_2.txt
+-rw-r--r-- 1 Salwa accountant 0 Oct 29 11:08 Acc_3.txt
+-rw-r--r-- 1 Salwa accountant 0 Oct 29 11:08 Acc_4.txt
+-rw-r--r-- 1 Salwa accountant 0 Oct 29 11:08 Acc_5.txt
+
+./Tuwaiq/Engineering:
+total 0
+-rw-r--r-- 1 Ahmad engineer 0 Oct 29 11:08 Eng_1.txt
+-rw-r--r-- 1 Ahmad engineer 0 Oct 29 11:08 Eng_2.txt
+-rw-r--r-- 1 Ahmad engineer 0 Oct 29 11:08 Eng_3.txt
+-rw-r--r-- 1 Ahmad engineer 0 Oct 29 11:08 Eng_4.txt
+-rw-r--r-- 1 Ahmad engineer 0 Oct 29 11:08 Eng_5.txt
+
+./Tuwaiq/HR:
+total 0
+-rw-r--r-- 1 Ali HR 0 Oct 29 11:08 HR_1.txt
+-rw-r--r-- 1 Ali HR 0 Oct 29 11:08 HR_2.txt
+-rw-r--r-- 1 Ali HR 0 Oct 29 11:08 HR_3.txt
+-rw-r--r-- 1 Ali HR 0 Oct 29 11:08 HR_4.txt
+-rw-r--r-- 1 Ali HR 0 Oct 29 11:08 HR_5.txt
+[root@b3844c32e4d5 ~]# chmod +r Tuwaiq/
+[root@b3844c32e4d5 ~]# ls -lR
+.:
+total 20
+-rw------- 1 root  root     2361 Sep 15  2021 anaconda-ks.cfg
+-rw-r--r-- 1 root  root      608 Sep 15  2021 anaconda-post.log
+drwxr-xr-x 3 root  root     4096 Oct 29 07:57 mydir
+-rw------- 1 root  root     2059 Sep 15  2021 original-ks.cfg
+drwxr-xr-x 5 Ahmad engineer 4096 Oct 29 12:03 Tuwaiq
+
+./mydir:
+total 524
+-rw-r--r-- 1 root root     31 Oct 29 07:06 err.log
+-rw-r--r-- 1 root root      0 Oct 28 13:46 file1.txt
+-rw-r--r-- 1 root root     15 Oct 28 13:57 file2.txt
+-rw-r--r-- 1 root root     14 Oct 28 14:00 file3.txt
+-rw-r--r-- 1 root root      0 Oct 28 13:46 file4.txt
+-rw-r--r-- 1 root root      9 Oct 28 07:14 file.txt
+-rw-r--r-- 1 root root      0 Oct 29 07:57 grep
+drwxr-xr-x 2 root root   4096 Oct 26 10:12 mydir2
+-rw------- 1 root root 488240 Oct 26 11:00 securecopy.txt
+-rw-r--r-- 1 root root    168 Oct 29 07:04 sep2022.txt
+-rw-r--r-- 1 root root  17802 Oct 26 11:28 useradd-man.txt
+
+./mydir/mydir2:
+total 0
+-rw-r--r-- 1 root root 0 Oct 26 10:02 anwar.txt
+
+./Tuwaiq:
+total 12
+drwxr-xr-x 2 Salwa accountant 4096 Oct 29 12:03 Accounting
+drwxr-xr-x 2 Ahmad engineer   4096 Oct 29 12:02 Engineering
+drwxr-xr-x 2 Ali   HR         4096 Oct 29 12:03 HR
+
+./Tuwaiq/Accounting:
+total 0
+-rw-r--r-- 1 Salwa accountant 0 Oct 29 11:08 Acc_1.txt
+-rw-r--r-- 1 Salwa accountant 0 Oct 29 11:08 Acc_2.txt
+-rw-r--r-- 1 Salwa accountant 0 Oct 29 11:08 Acc_3.txt
+-rw-r--r-- 1 Salwa accountant 0 Oct 29 11:08 Acc_4.txt
+-rw-r--r-- 1 Salwa accountant 0 Oct 29 11:08 Acc_5.txt
+
+./Tuwaiq/Engineering:
+total 0
+-rw-r--r-- 1 Ahmad engineer 0 Oct 29 11:08 Eng_1.txt
+-rw-r--r-- 1 Ahmad engineer 0 Oct 29 11:08 Eng_2.txt
+-rw-r--r-- 1 Ahmad engineer 0 Oct 29 11:08 Eng_3.txt
+-rw-r--r-- 1 Ahmad engineer 0 Oct 29 11:08 Eng_4.txt
+-rw-r--r-- 1 Ahmad engineer 0 Oct 29 11:08 Eng_5.txt
+
+./Tuwaiq/HR:
+total 0
+-rw-r--r-- 1 Ali HR 0 Oct 29 11:08 HR_1.txt
+-rw-r--r-- 1 Ali HR 0 Oct 29 11:08 HR_2.txt
+-rw-r--r-- 1 Ali HR 0 Oct 29 11:08 HR_3.txt
+-rw-r--r-- 1 Ali HR 0 Oct 29 11:08 HR_4.txt
+-rw-r--r-- 1 Ali HR 0 Oct 29 11:08 HR_5.txt
+[root@b3844c32e4d5 ~]# 
+  [Restored 30 Oct 2566 BE at 9:35:24 AM]
+Last login: Mon Oct 30 09:34:14 on console
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+MacBook-Pro:~ anwar$ 
+
